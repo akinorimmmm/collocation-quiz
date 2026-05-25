@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chunk Collocation Quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="menuView" class="menu-view">
+        <header class="hero">
+          <p class="eyebrow">Chunk Collocation Quiz</p>
+          <h1>チャンク・コロケーション問題集</h1>
+          <p>日本語から自然な英語のかたまりを選び、英語を単語ではなく組み合わせで覚えます。</p>
+        </header>
+        <div class="menu-actions">
+          <button id="startQuizButton" class="primary" type="button">問題を解く</button>
+          <button id="showProgressButton" type="button">学習進捗</button>
+        </div>
+      </section>
+
+      <section id="quizView" class="quiz-view hidden">
+        <header class="topbar">
+          <div>
+            <p id="quizCategory" class="eyebrow">Weather</p>
+            <h1 id="promptText">雨が強い</h1>
+          </div>
+          <button id="backToMenuFromQuizButton" type="button">メニューに戻る</button>
+        </header>
+
+        <div id="choiceGrid" class="choice-grid"></div>
+
+        <section id="feedbackPanel" class="feedback-panel hidden" aria-live="polite">
+          <div id="feedbackMark" class="feedback-mark">○</div>
+          <div>
+            <h2 id="feedbackTitle">You got it!</h2>
+            <p id="correctAnswerText" class="correct-answer"></p>
+            <p id="explanationText" class="explanation"></p>
+          </div>
+          <button id="nextQuestionButton" class="primary" type="button">次へ</button>
+        </section>
+      </section>
+
+      <section id="progressView" class="progress-view hidden">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Learning Progress</p>
+            <h1>学習進捗</h1>
+          </div>
+          <button id="backToMenuFromProgressButton" type="button">メニューに戻る</button>
+        </header>
+
+        <div class="progress-grid">
+          <div class="metric-card">
+            <span id="coverageText">0%</span>
+            <small>回答済み率</small>
+          </div>
+          <div class="metric-card">
+            <span id="accuracyText">0%</span>
+            <small>直近正解率</small>
+          </div>
+          <div class="metric-card">
+            <span id="unseenText">10</span>
+            <small>未出題</small>
+          </div>
+          <div class="metric-card">
+            <span id="dueText">0</span>
+            <small>復習待ち</small>
+          </div>
+          <div class="metric-card">
+            <span id="streakText">0</span>
+            <small>現在の連続正解</small>
+          </div>
+          <div class="metric-card">
+            <span id="masteredText">0</span>
+            <small>3連続正解</small>
+          </div>
+        </div>
+
+        <section class="progress-section">
+          <h2>苦手フレーズ</h2>
+          <div id="weakList" class="phrase-list"></div>
+        </section>
+
+        <section class="progress-section">
+          <h2>直近で間違えたフレーズ</h2>
+          <div id="recentWrongList" class="phrase-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
