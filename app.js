@@ -2,6 +2,7 @@ const STORAGE_KEY = "chunkCollocationQuizProgress";
 const SPEECH_LANG = "en-US";
 const SPEECH_RATE = 0.9;
 const FEEDBACK_VOLUME = 0.14;
+const QUESTIONS = window.QUESTIONS || [];
 
 const state = {
   turn: 0,
@@ -108,6 +109,7 @@ function showView(viewName) {
 }
 
 function startQuiz() {
+  if (!ensureQuestionsLoaded()) return;
   showView("quiz");
   nextQuestion();
 }
@@ -140,6 +142,13 @@ function pickNextQuestion() {
     const record = ensureRecord(question.id);
     return 1 + record.wrongCount * 3 - Math.min(record.correctCount, 3);
   });
+}
+
+function ensureQuestionsLoaded() {
+  if (QUESTIONS.length) return true;
+
+  window.alert("問題データを読み込めませんでした。questions.js が同じフォルダにあるか確認してください。");
+  return false;
 }
 
 function renderQuestion() {
@@ -379,6 +388,7 @@ function escapeHtml(value) {
 
 els.startQuizButton.addEventListener("click", startQuiz);
 els.showProgressButton.addEventListener("click", () => {
+  if (!ensureQuestionsLoaded()) return;
   renderProgress();
   showView("progress");
 });

@@ -320,4 +320,4 @@ const GENERATED_QUESTIONS = [
   ...withoutBaseDuplicates(makePhraseQuestions()).slice(0, 110)
 ];
 
-const QUESTIONS = [...BASE_QUESTIONS, ...GENERATED_QUESTIONS];
+window.QUESTIONS = [...BASE_QUESTIONS, ...GENERATED_QUESTIONS];
