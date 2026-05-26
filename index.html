@@ -34,7 +34,6 @@
         <section id="feedbackPanel" class="feedback-panel hidden" aria-live="polite">
           <div id="feedbackMark" class="feedback-mark">○</div>
           <div>
-            <h2 id="feedbackTitle">You got it!</h2>
             <p id="correctAnswerText" class="correct-answer"></p>
             <p id="explanationText" class="explanation"></p>
           </div>
@@ -61,7 +60,7 @@
             <small>直近正解率</small>
           </div>
           <div class="metric-card">
-            <span id="unseenText">10</span>
+            <span id="unseenText">510</span>
             <small>未出題</small>
           </div>
           <div class="metric-card">
@@ -75,6 +74,10 @@
           <div class="metric-card">
             <span id="masteredText">0</span>
             <small>3連続正解</small>
+          </div>
+          <div class="metric-card">
+            <span id="todayAnsweredText">0</span>
+            <small>今日の回答数</small>
           </div>
         </div>
 
@@ -90,6 +93,7 @@
       </section>
     </main>
 
+    <script src="./questions.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

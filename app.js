@@ -1,104 +1,16 @@
-const QUESTIONS = [
-  {
-    id: "heavy-rain",
-    category: "Weather",
-    jaPrompt: "雨が強い",
-    answer: "heavy rain",
-    distractors: ["strong rain", "big rain", "hard rain"],
-    explanationJa: "rain には heavy を使うのが自然です。strong は wind、hard は work などと結びつきやすい語です。",
-    sourceRefs: ["Oxford Collocations Dictionary", "OZDIC"]
-  },
-  {
-    id: "make-a-decision",
-    category: "Action",
-    jaPrompt: "決断する",
-    answer: "make a decision",
-    distractors: ["do a decision", "create a decision", "build a decision"],
-    explanationJa: "decision は make と組み合わせて「決断する」と言います。take a decision は一部の英語で使われますが、初期学習では make a decision を優先します。",
-    sourceRefs: ["Oxford Collocations Dictionary", "WordReference"]
-  },
-  {
-    id: "make-a-mistake",
-    category: "Action",
-    jaPrompt: "間違いを犯す",
-    answer: "make a mistake",
-    distractors: ["do a mistake", "take a mistake", "create a mistake"],
-    explanationJa: "mistake は make と結びつきます。日本語の「する」に引っ張られて do a mistake としないようにします。",
-    sourceRefs: ["Oxford Collocations Dictionary", "OZDIC"]
-  },
-  {
-    id: "take-a-photo",
-    category: "Daily Life",
-    jaPrompt: "写真を撮る",
-    answer: "take a photo",
-    distractors: ["make a photo", "do a photo", "catch a photo"],
-    explanationJa: "photo は take と組み合わせて「写真を撮る」と言います。make は制作するニュアンスになりやすいです。",
-    sourceRefs: ["Oxford Learner's Dictionaries", "WordReference"]
-  },
-  {
-    id: "keep-a-promise",
-    category: "People",
-    jaPrompt: "約束を守る",
-    answer: "keep a promise",
-    distractors: ["hold a promise", "protect a promise", "save a promise"],
-    explanationJa: "promise は keep と結びついて「約束を守る」になります。break a promise は「約束を破る」です。",
-    sourceRefs: ["Oxford Collocations Dictionary", "OZDIC"]
-  },
-  {
-    id: "meet-a-deadline",
-    category: "Work",
-    jaPrompt: "締切に間に合う",
-    answer: "meet a deadline",
-    distractors: ["catch a deadline", "touch a deadline", "arrive a deadline"],
-    explanationJa: "deadline は meet と組み合わせて「締切に間に合う」と言います。仕事・試験・提出物でよく使います。",
-    sourceRefs: ["Oxford Collocations Dictionary", "WordReference"]
-  },
-  {
-    id: "pay-attention",
-    category: "Learning",
-    jaPrompt: "注意を払う",
-    answer: "pay attention",
-    distractors: ["send attention", "give attention", "put attention"],
-    explanationJa: "attention は pay と組み合わせて「注意を払う」と言います。pay はお金以外にも attention/respect などと結びつきます。",
-    sourceRefs: ["Oxford Collocations Dictionary", "OZDIC"]
-  },
-  {
-    id: "strong-wind",
-    category: "Weather",
-    jaPrompt: "強い風",
-    answer: "strong wind",
-    distractors: ["heavy wind", "big wind", "hard wind"],
-    explanationJa: "wind には strong を使うのが自然です。rain は heavy rain、wind は strong wind と塊で覚えます。",
-    sourceRefs: ["Oxford Collocations Dictionary", "OZDIC"]
-  },
-  {
-    id: "deeply-asleep",
-    category: "Daily Life",
-    jaPrompt: "ぐっすり眠っている",
-    answer: "deeply asleep",
-    distractors: ["strongly asleep", "big asleep", "hard asleep"],
-    explanationJa: "asleep は deeply と組み合わせて「ぐっすり眠っている」と表現できます。形容詞や副詞の自然な結びつきを意識します。",
-    sourceRefs: ["Oxford Collocations Dictionary", "WordReference"]
-  },
-  {
-    id: "conduct-research",
-    category: "Academic",
-    jaPrompt: "研究を行う",
-    answer: "conduct research",
-    distractors: ["make research", "create research", "play research"],
-    explanationJa: "research は conduct と結びついて「研究を行う」と言えます。do research も自然ですが、この問題ではよりフォーマルな conduct research を正解にしています。",
-    sourceRefs: ["Oxford Collocations Dictionary", "COCA"]
-  }
-];
-
 const STORAGE_KEY = "chunkCollocationQuizProgress";
+const SPEECH_LANG = "en-US";
+const SPEECH_RATE = 0.9;
+const FEEDBACK_VOLUME = 0.14;
 
 const state = {
   turn: 0,
   currentQuestion: null,
   selectedAnswer: "",
   answered: false,
-  progress: loadProgress()
+  progress: loadProgress(),
+  audioContext: null,
+  feedbackPlaybackId: 0
 };
 
 const $ = (id) => document.getElementById(id);
@@ -115,7 +27,6 @@ const els = {
   choiceGrid: $("choiceGrid"),
   feedbackPanel: $("feedbackPanel"),
   feedbackMark: $("feedbackMark"),
-  feedbackTitle: $("feedbackTitle"),
   correctAnswerText: $("correctAnswerText"),
   explanationText: $("explanationText"),
   nextQuestionButton: $("nextQuestionButton"),
@@ -125,6 +36,7 @@ const els = {
   dueText: $("dueText"),
   streakText: $("streakText"),
   masteredText: $("masteredText"),
+  todayAnsweredText: $("todayAnsweredText"),
   weakList: $("weakList"),
   recentWrongList: $("recentWrongList")
 };
@@ -135,15 +47,44 @@ function loadProgress() {
     return {
       turn: Number(saved.turn) || 0,
       streak: Number(saved.streak) || 0,
+      daily: normalizeDailyProgress(saved.daily),
       questions: saved.questions || {}
     };
   } catch {
-    return { turn: 0, streak: 0, questions: {} };
+    return { turn: 0, streak: 0, daily: normalizeDailyProgress(), questions: {} };
   }
 }
 
 function saveProgress() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
+}
+
+function todayKey() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function normalizeDailyProgress(savedDaily = {}) {
+  const today = todayKey();
+  if (savedDaily.date === today) {
+    return {
+      date: today,
+      answeredCount: Number(savedDaily.answeredCount) || 0
+    };
+  }
+
+  return {
+    date: today,
+    answeredCount: 0
+  };
+}
+
+function ensureDailyProgress() {
+  state.progress.daily = normalizeDailyProgress(state.progress.daily);
+  return state.progress.daily;
 }
 
 function ensureRecord(questionId) {
@@ -172,6 +113,7 @@ function startQuiz() {
 }
 
 function nextQuestion() {
+  stopFeedbackPlayback();
   state.currentQuestion = pickNextQuestion();
   state.selectedAnswer = "";
   state.answered = false;
@@ -232,7 +174,9 @@ function answerQuestion(choice) {
 
 function updateProgress(question, isCorrect) {
   const record = ensureRecord(question.id);
+  const daily = ensureDailyProgress();
   state.progress.turn += 1;
+  daily.answeredCount += 1;
   record.seenCount += 1;
   record.lastAnsweredTurn = state.progress.turn;
   record.recentResults = [...record.recentResults.slice(-2), isCorrect];
@@ -257,10 +201,10 @@ function renderAnsweredState(isCorrect) {
 
   els.feedbackPanel.classList.toggle("wrong", !isCorrect);
   els.feedbackMark.textContent = isCorrect ? "○" : "×";
-  els.feedbackTitle.textContent = isCorrect ? "You got it!" : "Review this chunk";
-  els.correctAnswerText.textContent = isCorrect ? question.answer : `正解: ${question.answer}`;
+  els.correctAnswerText.textContent = `正解: ${question.answer}`;
   els.explanationText.textContent = question.explanationJa;
   els.feedbackPanel.classList.remove("hidden");
+  playFeedbackSequence(isCorrect, question.answer);
 }
 
 function renderProgress() {
@@ -278,6 +222,7 @@ function renderProgress() {
   els.dueText.textContent = due.length;
   els.streakText.textContent = state.progress.streak || 0;
   els.masteredText.textContent = mastered;
+  els.todayAnsweredText.textContent = ensureDailyProgress().answeredCount;
 
   renderPhraseList(els.weakList, weakItems(records), "苦手フレーズはまだありません。");
   renderPhraseList(els.recentWrongList, recentWrongItems(records), "直近で間違えたフレーズはまだありません。");
@@ -321,6 +266,81 @@ function renderPhraseList(container, items, emptyMessage) {
   });
 }
 
+function getAudioContext() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) return null;
+
+  if (!state.audioContext) {
+    state.audioContext = new AudioContextClass();
+  }
+
+  if (state.audioContext.state === "suspended") {
+    state.audioContext.resume();
+  }
+
+  return state.audioContext;
+}
+
+function playFeedbackSequence(isCorrect, phrase) {
+  const playbackId = ++state.feedbackPlaybackId;
+  window.speechSynthesis?.cancel();
+  playResultSound(isCorrect).finally(() => {
+    if (playbackId === state.feedbackPlaybackId && state.answered) {
+      speakPhrase(phrase);
+    }
+  });
+}
+
+function playResultSound(isCorrect) {
+  const context = getAudioContext();
+  if (!context) return Promise.resolve();
+
+  const notes = isCorrect
+    ? [
+        { frequency: 880, start: 0, duration: 0.12, type: "sine" },
+        { frequency: 1174, start: 0.13, duration: 0.16, type: "sine" }
+      ]
+    : [
+        { frequency: 180, start: 0, duration: 0.16, type: "sawtooth" },
+        { frequency: 120, start: 0.17, duration: 0.18, type: "sawtooth" }
+      ];
+
+  const startTime = context.currentTime + 0.01;
+  notes.forEach((note) => {
+    const oscillator = context.createOscillator();
+    const gain = context.createGain();
+    oscillator.type = note.type;
+    oscillator.frequency.setValueAtTime(note.frequency, startTime + note.start);
+    gain.gain.setValueAtTime(0.0001, startTime + note.start);
+    gain.gain.exponentialRampToValueAtTime(FEEDBACK_VOLUME, startTime + note.start + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, startTime + note.start + note.duration);
+    oscillator.connect(gain);
+    gain.connect(context.destination);
+    oscillator.start(startTime + note.start);
+    oscillator.stop(startTime + note.start + note.duration + 0.03);
+  });
+
+  const totalDuration = Math.max(...notes.map((note) => note.start + note.duration));
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, Math.ceil((totalDuration + 0.08) * 1000));
+  });
+}
+
+function speakPhrase(phrase) {
+  if (!("speechSynthesis" in window)) return;
+
+  const utterance = new SpeechSynthesisUtterance(phrase);
+  utterance.lang = SPEECH_LANG;
+  utterance.rate = SPEECH_RATE;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+}
+
+function stopFeedbackPlayback() {
+  state.feedbackPlaybackId += 1;
+  window.speechSynthesis?.cancel();
+}
+
 function countTrailingCorrect(results) {
   let count = 0;
   for (let i = results.length - 1; i >= 0; i -= 1) {
@@ -362,6 +382,9 @@ els.showProgressButton.addEventListener("click", () => {
   renderProgress();
   showView("progress");
 });
-els.backToMenuFromQuizButton.addEventListener("click", () => showView("menu"));
+els.backToMenuFromQuizButton.addEventListener("click", () => {
+  stopFeedbackPlayback();
+  showView("menu");
+});
 els.backToMenuFromProgressButton.addEventListener("click", () => showView("menu"));
 els.nextQuestionButton.addEventListener("click", nextQuestion);
