@@ -7,6 +7,7 @@ const QUESTIONS = window.QUESTIONS || [];
 const state = {
   turn: 0,
   currentQuestion: null,
+  activeCategory: "",
   selectedAnswer: "",
   answered: false,
   progress: loadProgress(),
@@ -17,19 +18,23 @@ const state = {
 const $ = (id) => document.getElementById(id);
 const els = {
   menuView: $("menuView"),
+  categoryView: $("categoryView"),
   quizView: $("quizView"),
   progressView: $("progressView"),
   startQuizButton: $("startQuizButton"),
+  showCategoryButton: $("showCategoryButton"),
   showProgressButton: $("showProgressButton"),
+  backToMenuFromCategoryButton: $("backToMenuFromCategoryButton"),
   backToMenuFromQuizButton: $("backToMenuFromQuizButton"),
   backToMenuFromProgressButton: $("backToMenuFromProgressButton"),
+  categoryGrid: $("categoryGrid"),
   quizCategory: $("quizCategory"),
   promptText: $("promptText"),
   choiceGrid: $("choiceGrid"),
   feedbackPanel: $("feedbackPanel"),
   feedbackMark: $("feedbackMark"),
   correctAnswerText: $("correctAnswerText"),
-  explanationText: $("explanationText"),
+  exampleList: $("exampleList"),
   nextQuestionButton: $("nextQuestionButton"),
   coverageText: $("coverageText"),
   accuracyText: $("accuracyText"),
@@ -104,14 +109,22 @@ function ensureRecord(questionId) {
 
 function showView(viewName) {
   els.menuView.classList.toggle("hidden", viewName !== "menu");
+  els.categoryView.classList.toggle("hidden", viewName !== "category");
   els.quizView.classList.toggle("hidden", viewName !== "quiz");
   els.progressView.classList.toggle("hidden", viewName !== "progress");
 }
 
-function startQuiz() {
+function startQuiz(category = "") {
   if (!ensureQuestionsLoaded()) return;
+  state.activeCategory = category;
   showView("quiz");
   nextQuestion();
+}
+
+function showCategoryMenu() {
+  if (!ensureQuestionsLoaded()) return;
+  renderCategoryMenu();
+  showView("category");
 }
 
 function nextQuestion() {
@@ -123,11 +136,12 @@ function nextQuestion() {
 }
 
 function pickNextQuestion() {
+  const pool = activeQuestions();
   const turn = state.progress.turn;
-  const unseen = QUESTIONS.filter((question) => ensureRecord(question.id).seenCount === 0);
+  const unseen = pool.filter((question) => ensureRecord(question.id).seenCount === 0);
   if (unseen.length) return randomItem(unseen);
 
-  const due = QUESTIONS.filter((question) => ensureRecord(question.id).nextDueTurn <= turn);
+  const due = pool.filter((question) => ensureRecord(question.id).nextDueTurn <= turn);
   if (due.length) {
     return weightedPick(due, (question) => {
       const record = ensureRecord(question.id);
@@ -138,10 +152,17 @@ function pickNextQuestion() {
     });
   }
 
-  return weightedPick(QUESTIONS, (question) => {
+  return weightedPick(pool, (question) => {
     const record = ensureRecord(question.id);
     return 1 + record.wrongCount * 3 - Math.min(record.correctCount, 3);
   });
+}
+
+function activeQuestions() {
+  if (!state.activeCategory) return QUESTIONS;
+
+  const filtered = QUESTIONS.filter((question) => question.category === state.activeCategory);
+  return filtered.length ? filtered : QUESTIONS;
 }
 
 function ensureQuestionsLoaded() {
@@ -151,9 +172,27 @@ function ensureQuestionsLoaded() {
   return false;
 }
 
+function renderCategoryMenu() {
+  const categories = [...new Set(QUESTIONS.map((question) => question.category))].sort((a, b) => a.localeCompare(b));
+  els.categoryGrid.innerHTML = "";
+
+  categories.forEach((category) => {
+    const count = QUESTIONS.filter((question) => question.category === category).length;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "category-button";
+    button.innerHTML = `
+      <strong>${escapeHtml(category)}</strong>
+      <span>${count}問</span>
+    `;
+    button.addEventListener("click", () => startQuiz(category));
+    els.categoryGrid.appendChild(button);
+  });
+}
+
 function renderQuestion() {
   const question = state.currentQuestion;
-  els.quizCategory.textContent = question.category;
+  els.quizCategory.textContent = state.activeCategory ? `${question.category} / カテゴリ学習` : question.category;
   els.promptText.textContent = question.jaPrompt;
   els.feedbackPanel.classList.add("hidden");
   els.feedbackPanel.classList.remove("wrong");
@@ -211,9 +250,32 @@ function renderAnsweredState(isCorrect) {
   els.feedbackPanel.classList.toggle("wrong", !isCorrect);
   els.feedbackMark.textContent = isCorrect ? "○" : "×";
   els.correctAnswerText.textContent = `正解: ${question.answer}`;
-  els.explanationText.textContent = question.explanationJa;
+  els.correctAnswerText.classList.add("speakable");
+  els.correctAnswerText.onclick = () => speakPhrase(question.answer);
+  renderExamples(question);
   els.feedbackPanel.classList.remove("hidden");
   playFeedbackSequence(isCorrect, question.answer);
+}
+
+function renderExamples(question) {
+  els.exampleList.innerHTML = "";
+
+  question.examples.forEach((example) => {
+    const item = document.createElement("div");
+    item.className = "example-item";
+
+    const en = document.createElement("p");
+    en.className = "example-en speakable";
+    en.textContent = example.en;
+    en.addEventListener("click", () => speakPhrase(example.en));
+
+    const ja = document.createElement("p");
+    ja.className = "example-ja";
+    ja.textContent = example.ja;
+
+    item.append(en, ja);
+    els.exampleList.appendChild(item);
+  });
 }
 
 function renderProgress() {
@@ -386,12 +448,14 @@ function escapeHtml(value) {
     .replaceAll("\"", "&quot;");
 }
 
-els.startQuizButton.addEventListener("click", startQuiz);
+els.startQuizButton.addEventListener("click", () => startQuiz(""));
+els.showCategoryButton.addEventListener("click", showCategoryMenu);
 els.showProgressButton.addEventListener("click", () => {
   if (!ensureQuestionsLoaded()) return;
   renderProgress();
   showView("progress");
 });
+els.backToMenuFromCategoryButton.addEventListener("click", () => showView("menu"));
 els.backToMenuFromQuizButton.addEventListener("click", () => {
   stopFeedbackPlayback();
   showView("menu");

@@ -15,9 +15,22 @@
           <p>日本語から自然な英語のかたまりを選び、英語を単語ではなく組み合わせで覚えます。</p>
         </header>
         <div class="menu-actions">
-          <button id="startQuizButton" class="primary" type="button">問題を解く</button>
+          <button id="startQuizButton" class="primary" type="button">全問題</button>
+          <button id="showCategoryButton" type="button">カテゴリ</button>
           <button id="showProgressButton" type="button">学習進捗</button>
         </div>
+      </section>
+
+      <section id="categoryView" class="category-view hidden">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Categories</p>
+            <h1>カテゴリを選ぶ</h1>
+          </div>
+          <button id="backToMenuFromCategoryButton" type="button">メニューに戻る</button>
+        </header>
+
+        <div id="categoryGrid" class="category-grid"></div>
       </section>
 
       <section id="quizView" class="quiz-view hidden">
@@ -35,7 +48,7 @@
           <div id="feedbackMark" class="feedback-mark">○</div>
           <div>
             <p id="correctAnswerText" class="correct-answer"></p>
-            <p id="explanationText" class="explanation"></p>
+            <div id="exampleList" class="example-list"></div>
           </div>
           <button id="nextQuestionButton" class="primary" type="button">次へ</button>
         </section>
