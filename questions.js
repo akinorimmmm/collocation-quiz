@@ -4438,12 +4438,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned strong evidence.",
-        "ja": "その報告書では強い証拠について触れていました。"
+        "en": "The police found strong evidence at the scene.",
+        "ja": "警察は現場で有力な証拠を見つけました。"
       },
       {
-        "en": "Strong evidence can affect the final result.",
-        "ja": "強い証拠は最終結果に影響することがあります。"
+        "en": "There is strong evidence that the treatment works.",
+        "ja": "その治療が効果を持つことを示す有力な証拠があります。"
       }
     ]
   },
@@ -4464,12 +4464,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned strong support.",
-        "ja": "その報告書では強い支持について触れていました。"
+        "en": "The proposal received strong support from local residents.",
+        "ja": "その提案は地元住民から強い支持を得ました。"
       },
       {
-        "en": "Strong support can affect the final result.",
-        "ja": "強い支持は最終結果に影響することがあります。"
+        "en": "She has strong support from her team.",
+        "ja": "彼女はチームから強く支持されています。"
       }
     ]
   },
@@ -4490,12 +4490,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong argument.",
-        "ja": "その報告書では強い主張について触れていました。"
+        "en": "He made a strong argument for changing the rule.",
+        "ja": "彼はそのルールを変えるべきだと説得力のある主張をしました。"
       },
       {
-        "en": "Strong argument can affect the final result.",
-        "ja": "強い主張は最終結果に影響することがあります。"
+        "en": "The article presents a strong argument against the plan.",
+        "ja": "その記事はその計画に反対する説得力のある論拠を示しています。"
       }
     ]
   },
@@ -4516,12 +4516,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong smell.",
-        "ja": "その報告書では強いにおいについて触れていました。"
+        "en": "There was a strong smell of coffee in the room.",
+        "ja": "部屋にはコーヒーの強い香りが漂っていました。"
       },
       {
-        "en": "Strong smell can affect the final result.",
-        "ja": "強いにおいは最終結果に影響することがあります。"
+        "en": "A strong smell came from the kitchen.",
+        "ja": "台所から強いにおいがしてきました。"
       }
     ]
   },
@@ -4542,12 +4542,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong connection.",
-        "ja": "その報告書では強いつながりについて触れていました。"
+        "en": "There is a strong connection between sleep and memory.",
+        "ja": "睡眠と記憶には強いつながりがあります。"
       },
       {
-        "en": "Strong connection can affect the final result.",
-        "ja": "強いつながりは最終結果に影響することがあります。"
+        "en": "The study found a strong connection between stress and health.",
+        "ja": "その研究ではストレスと健康の間に強い関連が見つかりました。"
       }
     ]
   },
@@ -4568,12 +4568,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong leadership.",
-        "ja": "その報告書では強いリーダーシップについて触れていました。"
+        "en": "The company needs strong leadership during a crisis.",
+        "ja": "危機の時には、会社には強いリーダーシップが必要です。"
       },
       {
-        "en": "Strong leadership can affect the final result.",
-        "ja": "強いリーダーシップは最終結果に影響することがあります。"
+        "en": "Strong leadership helped the team stay focused.",
+        "ja": "強いリーダーシップのおかげで、チームは集中を保てました。"
       }
     ]
   },
@@ -4594,19 +4594,19 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong demand.",
-        "ja": "その報告書では強い需要について触れていました。"
+        "en": "There is strong demand for skilled engineers.",
+        "ja": "熟練したエンジニアへの需要は高いです。"
       },
       {
-        "en": "Strong demand can affect the final result.",
-        "ja": "強い需要は最終結果に影響することがあります。"
+        "en": "Strong demand pushed prices higher.",
+        "ja": "旺盛な需要によって価格が上がりました。"
       }
     ]
   },
   {
     "id": "adj-strong-economy",
     "category": "Adjective + Noun",
-    "jaPrompt": "強い経済",
+    "jaPrompt": "堅調な経済",
     "answer": "strong economy",
     "distractors": [
       "heavy economy",
@@ -4620,19 +4620,19 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong economy.",
-        "ja": "その報告書では強い経済について触れていました。"
+        "en": "A strong economy can create more jobs.",
+        "ja": "堅調な経済は雇用を増やすことがあります。"
       },
       {
-        "en": "Strong economy can affect the final result.",
-        "ja": "強い経済は最終結果に影響することがあります。"
+        "en": "The country has maintained a strong economy for several years.",
+        "ja": "その国は数年にわたって堅調な経済を維持しています。"
       }
     ]
   },
   {
     "id": "adj-strong-foundation",
     "category": "Adjective + Noun",
-    "jaPrompt": "強い基盤",
+    "jaPrompt": "しっかりした基盤",
     "answer": "strong foundation",
     "distractors": [
       "heavy foundation",
@@ -4646,19 +4646,19 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong foundation.",
-        "ja": "その報告書では強い基盤について触れていました。"
+        "en": "Good grammar gives learners a strong foundation.",
+        "ja": "文法をしっかり学ぶと、学習者に確かな基盤ができます。"
       },
       {
-        "en": "Strong foundation can affect the final result.",
-        "ja": "強い基盤は最終結果に影響することがあります。"
+        "en": "The course provides a strong foundation in business English.",
+        "ja": "その講座ではビジネス英語のしっかりした基礎を身につけられます。"
       }
     ]
   },
   {
     "id": "adj-strong-preference",
     "category": "Adjective + Noun",
-    "jaPrompt": "強い好み",
+    "jaPrompt": "強い好み・希望",
     "answer": "strong preference",
     "distractors": [
       "heavy preference",
@@ -4672,19 +4672,19 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong preference.",
-        "ja": "その報告書では強い好みについて触れていました。"
+        "en": "Many users have a strong preference for dark mode.",
+        "ja": "多くのユーザーはダークモードを強く好んでいます。"
       },
       {
-        "en": "Strong preference can affect the final result.",
-        "ja": "強い好みは最終結果に影響することがあります。"
+        "en": "She expressed a strong preference for working from home.",
+        "ja": "彼女は在宅勤務を強く希望していると伝えました。"
       }
     ]
   },
   {
     "id": "adj-strong-commitment",
     "category": "Adjective + Noun",
-    "jaPrompt": "強い約束・責任感",
+    "jaPrompt": "強い責任感・熱意",
     "answer": "strong commitment",
     "distractors": [
       "heavy commitment",
@@ -4698,19 +4698,19 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong commitment.",
-        "ja": "その報告書では強い約束・責任感について触れていました。"
+        "en": "The team showed a strong commitment to quality.",
+        "ja": "そのチームは品質への強いこだわりを示しました。"
       },
       {
-        "en": "Strong commitment can affect the final result.",
-        "ja": "強い約束・責任感は最終結果に影響することがあります。"
+        "en": "Her strong commitment helped the project succeed.",
+        "ja": "彼女の強い責任感がプロジェクトの成功につながりました。"
       }
     ]
   },
   {
     "id": "adj-strong-candidate",
     "category": "Adjective + Noun",
-    "jaPrompt": "強い候補",
+    "jaPrompt": "有力な候補",
     "answer": "strong candidate",
     "distractors": [
       "heavy candidate",
@@ -4724,12 +4724,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong candidate.",
-        "ja": "その報告書では強い候補について触れていました。"
+        "en": "She is a strong candidate for the manager position.",
+        "ja": "彼女はマネージャー職の有力な候補です。"
       },
       {
-        "en": "Strong candidate can affect the final result.",
-        "ja": "強い候補は最終結果に影響することがあります。"
+        "en": "The company interviewed three strong candidates.",
+        "ja": "その会社は有力な候補者を3人面接しました。"
       }
     ]
   },
@@ -4750,12 +4750,12 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong signal.",
-        "ja": "その報告書では強い信号について触れていました。"
+        "en": "The phone has a strong signal near the window.",
+        "ja": "窓の近くでは携帯電話の電波が強いです。"
       },
       {
-        "en": "Strong signal can affect the final result.",
-        "ja": "強い信号は最終結果に影響することがあります。"
+        "en": "A strong signal is important for stable video calls.",
+        "ja": "安定したビデオ通話には強い電波が重要です。"
       }
     ]
   },
@@ -4776,402 +4776,402 @@ window.QUESTIONS = [
     ],
     "examples": [
       {
-        "en": "The report mentioned a strong influence.",
-        "ja": "その報告書では強い影響力について触れていました。"
+        "en": "Her teacher had a strong influence on her career.",
+        "ja": "先生は彼女の進路に大きな影響を与えました。"
       },
       {
-        "en": "Strong influence can affect the final result.",
-        "ja": "強い影響力は最終結果に影響することがあります。"
+        "en": "Social media has a strong influence on public opinion.",
+        "ja": "SNSは世論に大きな影響を与えます。"
       }
     ]
   },
   {
     "id": "adj-heavy-traffic",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の交通量",
+    "jaPrompt": "激しい交通渋滞",
     "answer": "heavy traffic",
     "distractors": [
       "strong traffic",
       "big traffic",
       "deep traffic"
     ],
-    "explanationJa": "traffic は heavy と組み合わせると「激しい・大量の交通量」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy traffic をまとまりで覚えます。",
+    "explanationJa": "heavy traffic は「激しい交通渋滞」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned heavy traffic.",
-        "ja": "その報告書では激しい・大量の交通量について触れていました。"
+        "en": "We were late because of heavy traffic.",
+        "ja": "交通渋滞がひどくて遅れました。"
       },
       {
-        "en": "Heavy traffic can affect the final result.",
-        "ja": "激しい・大量の交通量は最終結果に影響することがあります。"
+        "en": "Heavy traffic is common during the morning rush hour.",
+        "ja": "朝の通勤時間帯は交通渋滞がよく起こります。"
       }
     ]
   },
   {
     "id": "adj-heavy-snow",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の雪",
+    "jaPrompt": "大雪",
     "answer": "heavy snow",
     "distractors": [
       "strong snow",
       "big snow",
       "deep snow"
     ],
-    "explanationJa": "snow は heavy と組み合わせると「激しい・大量の雪」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy snow をまとまりで覚えます。",
+    "explanationJa": "heavy snow は「大雪」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy snow.",
-        "ja": "その報告書では激しい・大量の雪について触れていました。"
+        "en": "Heavy snow closed the airport.",
+        "ja": "大雪で空港が閉鎖されました。"
       },
       {
-        "en": "Heavy snow can affect the final result.",
-        "ja": "激しい・大量の雪は最終結果に影響することがあります。"
+        "en": "The train was delayed because of heavy snow.",
+        "ja": "大雪のため電車が遅れました。"
       }
     ]
   },
   {
     "id": "adj-heavy-damage",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の損害",
+    "jaPrompt": "大きな被害",
     "answer": "heavy damage",
     "distractors": [
       "strong damage",
       "big damage",
       "deep damage"
     ],
-    "explanationJa": "damage は heavy と組み合わせると「激しい・大量の損害」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy damage をまとまりで覚えます。",
+    "explanationJa": "heavy damage は「大きな被害」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned heavy damage.",
-        "ja": "その報告書では激しい・大量の損害について触れていました。"
+        "en": "The storm caused heavy damage to the town.",
+        "ja": "嵐は町に大きな被害をもたらしました。"
       },
       {
-        "en": "Heavy damage can affect the final result.",
-        "ja": "激しい・大量の損害は最終結果に影響することがあります。"
+        "en": "The building suffered heavy damage in the fire.",
+        "ja": "その建物は火災で大きな被害を受けました。"
       }
     ]
   },
   {
     "id": "adj-heavy-losses",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の損失",
+    "jaPrompt": "大きな損失",
     "answer": "heavy losses",
     "distractors": [
       "strong losses",
       "big losses",
       "deep losses"
     ],
-    "explanationJa": "losses は heavy と組み合わせると「激しい・大量の損失」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy losses をまとまりで覚えます。",
+    "explanationJa": "heavy losses は「大きな損失」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned heavy losses.",
-        "ja": "その報告書では激しい・大量の損失について触れていました。"
+        "en": "The company reported heavy losses last year.",
+        "ja": "その会社は昨年、大きな損失を報告しました。"
       },
       {
-        "en": "Heavy losses can affect the final result.",
-        "ja": "激しい・大量の損失は最終結果に影響することがあります。"
+        "en": "Heavy losses forced the store to close.",
+        "ja": "大きな損失により、その店は閉店に追い込まれました。"
       }
     ]
   },
   {
     "id": "adj-heavy-use",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の使用",
+    "jaPrompt": "頻繁な使用",
     "answer": "heavy use",
     "distractors": [
       "strong use",
       "big use",
       "deep use"
     ],
-    "explanationJa": "use は heavy と組み合わせると「激しい・大量の使用」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy use をまとまりで覚えます。",
+    "explanationJa": "heavy use は「頻繁な使用」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy use.",
-        "ja": "その報告書では激しい・大量の使用について触れていました。"
+        "en": "The battery wears out quickly under heavy use.",
+        "ja": "頻繁に使うとバッテリーは早く消耗します。"
       },
       {
-        "en": "Heavy use can affect the final result.",
-        "ja": "激しい・大量の使用は最終結果に影響することがあります。"
+        "en": "This chair is designed for heavy use in offices.",
+        "ja": "この椅子はオフィスでの頻繁な使用を想定して作られています。"
       }
     ]
   },
   {
     "id": "adj-heavy-workload",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の仕事量",
+    "jaPrompt": "重い仕事量",
     "answer": "heavy workload",
     "distractors": [
       "strong workload",
       "big workload",
       "deep workload"
     ],
-    "explanationJa": "workload は heavy と組み合わせると「激しい・大量の仕事量」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy workload をまとまりで覚えます。",
+    "explanationJa": "heavy workload は「重い仕事量」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy workload.",
-        "ja": "その報告書では激しい・大量の仕事量について触れていました。"
+        "en": "She has a heavy workload this month.",
+        "ja": "彼女は今月、仕事量がかなり多いです。"
       },
       {
-        "en": "Heavy workload can affect the final result.",
-        "ja": "激しい・大量の仕事量は最終結果に影響することがあります。"
+        "en": "A heavy workload can lead to stress.",
+        "ja": "仕事量が多すぎるとストレスにつながることがあります。"
       }
     ]
   },
   {
     "id": "adj-heavy-industry",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の産業",
+    "jaPrompt": "重工業",
     "answer": "heavy industry",
     "distractors": [
       "strong industry",
       "big industry",
       "deep industry"
     ],
-    "explanationJa": "industry は heavy と組み合わせると「激しい・大量の産業」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy industry をまとまりで覚えます。",
+    "explanationJa": "heavy industry は「重工業」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy industry.",
-        "ja": "その報告書では激しい・大量の産業について触れていました。"
+        "en": "Heavy industry uses large machines and factories.",
+        "ja": "重工業では大型機械や工場が使われます。"
       },
       {
-        "en": "Heavy industry can affect the final result.",
-        "ja": "激しい・大量の産業は最終結果に影響することがあります。"
+        "en": "The city grew because of heavy industry.",
+        "ja": "その都市は重工業によって発展しました。"
       }
     ]
   },
   {
     "id": "adj-heavy-drinking",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の飲酒",
+    "jaPrompt": "大量飲酒",
     "answer": "heavy drinking",
     "distractors": [
       "strong drinking",
       "big drinking",
       "deep drinking"
     ],
-    "explanationJa": "drinking は heavy と組み合わせると「激しい・大量の飲酒」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy drinking をまとまりで覚えます。",
+    "explanationJa": "heavy drinking は「大量飲酒」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy drinking.",
-        "ja": "その報告書では激しい・大量の飲酒について触れていました。"
+        "en": "Heavy drinking can damage your health.",
+        "ja": "大量飲酒は健康を損なうことがあります。"
       },
       {
-        "en": "Heavy drinking can affect the final result.",
-        "ja": "激しい・大量の飲酒は最終結果に影響することがあります。"
+        "en": "The doctor warned him about heavy drinking.",
+        "ja": "医師は彼に飲み過ぎについて注意しました。"
       }
     ]
   },
   {
     "id": "adj-heavy-investment",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の投資",
+    "jaPrompt": "大規模な投資",
     "answer": "heavy investment",
     "distractors": [
       "strong investment",
       "big investment",
       "deep investment"
     ],
-    "explanationJa": "investment は heavy と組み合わせると「激しい・大量の投資」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy investment をまとまりで覚えます。",
+    "explanationJa": "heavy investment は「大規模な投資」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy investment.",
-        "ja": "その報告書では激しい・大量の投資について触れていました。"
+        "en": "The project requires heavy investment.",
+        "ja": "そのプロジェクトには大規模な投資が必要です。"
       },
       {
-        "en": "Heavy investment can affect the final result.",
-        "ja": "激しい・大量の投資は最終結果に影響することがあります。"
+        "en": "The company made a heavy investment in new technology.",
+        "ja": "その会社は新技術に大規模な投資を行いました。"
       }
     ]
   },
   {
     "id": "adj-heavy-fighting",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の戦闘",
+    "jaPrompt": "激しい戦闘",
     "answer": "heavy fighting",
     "distractors": [
       "strong fighting",
       "big fighting",
       "deep fighting"
     ],
-    "explanationJa": "fighting は heavy と組み合わせると「激しい・大量の戦闘」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy fighting をまとまりで覚えます。",
+    "explanationJa": "heavy fighting は「激しい戦闘」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy fighting.",
-        "ja": "その報告書では激しい・大量の戦闘について触れていました。"
+        "en": "Heavy fighting continued near the border.",
+        "ja": "国境付近で激しい戦闘が続きました。"
       },
       {
-        "en": "Heavy fighting can affect the final result.",
-        "ja": "激しい・大量の戦闘は最終結果に影響することがあります。"
+        "en": "Many people left the area because of heavy fighting.",
+        "ja": "激しい戦闘のため、多くの人がその地域を離れました。"
       }
     ]
   },
   {
     "id": "adj-heavy-costs",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の費用",
+    "jaPrompt": "大きな費用負担",
     "answer": "heavy costs",
     "distractors": [
       "strong costs",
       "big costs",
       "deep costs"
     ],
-    "explanationJa": "costs は heavy と組み合わせると「激しい・大量の費用」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy costs をまとまりで覚えます。",
+    "explanationJa": "heavy costs は「大きな費用負担」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned heavy costs.",
-        "ja": "その報告書では激しい・大量の費用について触れていました。"
+        "en": "The plan would involve heavy costs.",
+        "ja": "その計画には大きな費用がかかります。"
       },
       {
-        "en": "Heavy costs can affect the final result.",
-        "ja": "激しい・大量の費用は最終結果に影響することがあります。"
+        "en": "Small companies may struggle with heavy costs.",
+        "ja": "小規模企業は大きな費用負担に苦しむことがあります。"
       }
     ]
   },
   {
     "id": "adj-heavy-pressure",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の圧力",
+    "jaPrompt": "大きな圧力",
     "answer": "heavy pressure",
     "distractors": [
       "strong pressure",
       "big pressure",
       "deep pressure"
     ],
-    "explanationJa": "pressure は heavy と組み合わせると「激しい・大量の圧力」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy pressure をまとまりで覚えます。",
+    "explanationJa": "heavy pressure は「大きな圧力」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy pressure.",
-        "ja": "その報告書では激しい・大量の圧力について触れていました。"
+        "en": "The team was under heavy pressure to finish on time.",
+        "ja": "チームは期限内に終えるよう強いプレッシャーを受けていました。"
       },
       {
-        "en": "Heavy pressure can affect the final result.",
-        "ja": "激しい・大量の圧力は最終結果に影響することがあります。"
+        "en": "Heavy pressure can make simple tasks feel difficult.",
+        "ja": "強いプレッシャーがあると、簡単な作業も難しく感じることがあります。"
       }
     ]
   },
   {
     "id": "adj-heavy-machinery",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の機械",
+    "jaPrompt": "重機",
     "answer": "heavy machinery",
     "distractors": [
       "strong machinery",
       "big machinery",
       "deep machinery"
     ],
-    "explanationJa": "machinery は heavy と組み合わせると「激しい・大量の機械」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy machinery をまとまりで覚えます。",
+    "explanationJa": "heavy machinery は「重機」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a heavy machinery.",
-        "ja": "その報告書では激しい・大量の機械について触れていました。"
+        "en": "Workers used heavy machinery to clear the road.",
+        "ja": "作業員たちは道路を片付けるために重機を使いました。"
       },
       {
-        "en": "Heavy machinery can affect the final result.",
-        "ja": "激しい・大量の機械は最終結果に影響することがあります。"
+        "en": "Only trained staff can operate heavy machinery.",
+        "ja": "重機を操作できるのは訓練を受けたスタッフだけです。"
       }
     ]
   },
   {
     "id": "adj-heavy-emphasis",
     "category": "Adjective + Noun",
-    "jaPrompt": "激しい・大量の重視",
+    "jaPrompt": "強い重点",
     "answer": "heavy emphasis",
     "distractors": [
       "strong emphasis",
       "big emphasis",
       "deep emphasis"
     ],
-    "explanationJa": "emphasis は heavy と組み合わせると「激しい・大量の重視」を表しやすいです。日本語の「強い・大きい」に引っ張られず、heavy emphasis をまとまりで覚えます。",
+    "explanationJa": "heavy emphasis は「強い重点」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned heavy emphasis.",
-        "ja": "その報告書では激しい・大量の重視について触れていました。"
+        "en": "The course places heavy emphasis on speaking practice.",
+        "ja": "その講座は会話練習に重点を置いています。"
       },
       {
-        "en": "Heavy emphasis can affect the final result.",
-        "ja": "激しい・大量の重視は最終結果に影響することがあります。"
+        "en": "The report puts heavy emphasis on safety.",
+        "ja": "その報告書は安全性を強く重視しています。"
       }
     ]
   },
   {
     "id": "adj-high-quality",
     "category": "Adjective + Noun",
-    "jaPrompt": "高い品質",
+    "jaPrompt": "高品質",
     "answer": "high quality",
     "distractors": [
       "tall quality",
       "big quality",
       "strong quality"
     ],
-    "explanationJa": "quality は high と組み合わせると「高い品質」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high quality をまとまりで覚えます。",
+    "explanationJa": "high quality は「高品質」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high quality.",
-        "ja": "その報告書では高い品質について触れていました。"
+        "en": "The shop sells high quality tea.",
+        "ja": "その店は高品質のお茶を販売しています。"
       },
       {
-        "en": "High quality can affect the final result.",
-        "ja": "高い品質は最終結果に影響することがあります。"
+        "en": "We need high quality data for this analysis.",
+        "ja": "この分析には質の高いデータが必要です。"
       }
     ]
   },
@@ -5185,19 +5185,19 @@ window.QUESTIONS = [
       "big price",
       "strong price"
     ],
-    "explanationJa": "price は high と組み合わせると「高い価格」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high price をまとまりで覚えます。",
+    "explanationJa": "high price は「高い価格」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high price.",
-        "ja": "その報告書では高い価格について触れていました。"
+        "en": "The high price made customers hesitate.",
+        "ja": "価格が高かったため、顧客は購入をためらいました。"
       },
       {
-        "en": "High price can affect the final result.",
-        "ja": "高い価格は最終結果に影響することがあります。"
+        "en": "A high price does not always mean high quality.",
+        "ja": "価格が高いからといって、必ずしも品質が高いとは限りません。"
       }
     ]
   },
@@ -5211,19 +5211,19 @@ window.QUESTIONS = [
       "big level",
       "strong level"
     ],
-    "explanationJa": "level は high と組み合わせると「高い水準」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high level をまとまりで覚えます。",
+    "explanationJa": "high level は「高い水準」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high level.",
-        "ja": "その報告書では高い水準について触れていました。"
+        "en": "The course requires a high level of English.",
+        "ja": "その講座には高い英語力が必要です。"
       },
       {
-        "en": "High level can affect the final result.",
-        "ja": "高い水準は最終結果に影響することがあります。"
+        "en": "The team maintained a high level of performance.",
+        "ja": "チームは高い成果水準を維持しました。"
       }
     ]
   },
@@ -5237,19 +5237,19 @@ window.QUESTIONS = [
       "big standard",
       "strong standard"
     ],
-    "explanationJa": "standard は high と組み合わせると「高い基準」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high standard をまとまりで覚えます。",
+    "explanationJa": "high standard は「高い基準」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high standard.",
-        "ja": "その報告書では高い基準について触れていました。"
+        "en": "The company has a high standard for customer service.",
+        "ja": "その会社は顧客対応に高い基準を設けています。"
       },
       {
-        "en": "High standard can affect the final result.",
-        "ja": "高い基準は最終結果に影響することがあります。"
+        "en": "Her work always meets a high standard.",
+        "ja": "彼女の仕事はいつも高い水準に達しています。"
       }
     ]
   },
@@ -5263,45 +5263,45 @@ window.QUESTIONS = [
       "big risk",
       "strong risk"
     ],
-    "explanationJa": "risk は high と組み合わせると「高いリスク」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high risk をまとまりで覚えます。",
+    "explanationJa": "high risk は「高いリスク」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high risk.",
-        "ja": "その報告書では高いリスクについて触れていました。"
+        "en": "This investment carries a high risk.",
+        "ja": "この投資には高いリスクがあります。"
       },
       {
-        "en": "High risk can affect the final result.",
-        "ja": "高いリスクは最終結果に影響することがあります。"
+        "en": "The area has a high risk of flooding.",
+        "ja": "その地域は洪水のリスクが高いです。"
       }
     ]
   },
   {
     "id": "adj-high-income",
     "category": "Adjective + Noun",
-    "jaPrompt": "高い収入",
+    "jaPrompt": "高収入",
     "answer": "high income",
     "distractors": [
       "tall income",
       "big income",
       "strong income"
     ],
-    "explanationJa": "income は high と組み合わせると「高い収入」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high income をまとまりで覚えます。",
+    "explanationJa": "high income は「高収入」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high income.",
-        "ja": "その報告書では高い収入について触れていました。"
+        "en": "High income does not always bring happiness.",
+        "ja": "高収入が必ずしも幸せをもたらすとは限りません。"
       },
       {
-        "en": "High income can affect the final result.",
-        "ja": "高い収入は最終結果に影響することがあります。"
+        "en": "The survey compared high income and low income households.",
+        "ja": "その調査は高収入世帯と低収入世帯を比較しました。"
       }
     ]
   },
@@ -5315,19 +5315,19 @@ window.QUESTIONS = [
       "big demand",
       "strong demand"
     ],
-    "explanationJa": "demand は high と組み合わせると「高い需要」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high demand をまとまりで覚えます。",
+    "explanationJa": "high demand は「高い需要」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high demand.",
-        "ja": "その報告書では高い需要について触れていました。"
+        "en": "There is high demand for online lessons.",
+        "ja": "オンライン授業への需要は高いです。"
       },
       {
-        "en": "High demand can affect the final result.",
-        "ja": "高い需要は最終結果に影響することがあります。"
+        "en": "High demand caused the tickets to sell out quickly.",
+        "ja": "需要が高かったため、チケットはすぐに売り切れました。"
       }
     ]
   },
@@ -5341,71 +5341,71 @@ window.QUESTIONS = [
       "big priority",
       "strong priority"
     ],
-    "explanationJa": "priority は high と組み合わせると「高い優先度」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high priority をまとまりで覚えます。",
+    "explanationJa": "high priority は「高い優先度」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high priority.",
-        "ja": "その報告書では高い優先度について触れていました。"
+        "en": "Security is a high priority for the company.",
+        "ja": "その会社ではセキュリティの優先度が高いです。"
       },
       {
-        "en": "High priority can affect the final result.",
-        "ja": "高い優先度は最終結果に影響することがあります。"
+        "en": "Please treat this request as a high priority.",
+        "ja": "この依頼は優先度の高いものとして扱ってください。"
       }
     ]
   },
   {
     "id": "adj-high-speed",
     "category": "Adjective + Noun",
-    "jaPrompt": "高い速度",
+    "jaPrompt": "高速",
     "answer": "high speed",
     "distractors": [
       "tall speed",
       "big speed",
       "strong speed"
     ],
-    "explanationJa": "speed は high と組み合わせると「高い速度」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high speed をまとまりで覚えます。",
+    "explanationJa": "high speed は「高速」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high speed.",
-        "ja": "その報告書では高い速度について触れていました。"
+        "en": "The train travels at high speed.",
+        "ja": "その列車は高速で走ります。"
       },
       {
-        "en": "High speed can affect the final result.",
-        "ja": "高い速度は最終結果に影響することがあります。"
+        "en": "High speed internet is essential for video meetings.",
+        "ja": "ビデオ会議には高速インターネットが欠かせません。"
       }
     ]
   },
   {
     "id": "adj-high-temperature",
     "category": "Adjective + Noun",
-    "jaPrompt": "高い温度",
+    "jaPrompt": "高温",
     "answer": "high temperature",
     "distractors": [
       "tall temperature",
       "big temperature",
       "strong temperature"
     ],
-    "explanationJa": "temperature は high と組み合わせると「高い温度」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high temperature をまとまりで覚えます。",
+    "explanationJa": "high temperature は「高温」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high temperature.",
-        "ja": "その報告書では高い温度について触れていました。"
+        "en": "The machine stops automatically at high temperature.",
+        "ja": "その機械は高温になると自動で停止します。"
       },
       {
-        "en": "High temperature can affect the final result.",
-        "ja": "高い温度は最終結果に影響することがあります。"
+        "en": "Food should not be stored at high temperature.",
+        "ja": "食品は高温で保管すべきではありません。"
       }
     ]
   },
@@ -5419,45 +5419,45 @@ window.QUESTIONS = [
       "big expectations",
       "strong expectations"
     ],
-    "explanationJa": "expectations は high と組み合わせると「高い期待」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high expectations をまとまりで覚えます。",
+    "explanationJa": "high expectations は「高い期待」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned high expectations.",
-        "ja": "その報告書では高い期待について触れていました。"
+        "en": "Customers have high expectations for this product.",
+        "ja": "顧客はこの製品に高い期待を寄せています。"
       },
       {
-        "en": "High expectations can affect the final result.",
-        "ja": "高い期待は最終結果に影響することがあります。"
+        "en": "The new employee felt pressure from high expectations.",
+        "ja": "新入社員は高い期待にプレッシャーを感じていました。"
       }
     ]
   },
   {
     "id": "adj-high-performance",
     "category": "Adjective + Noun",
-    "jaPrompt": "高い性能",
+    "jaPrompt": "高性能",
     "answer": "high performance",
     "distractors": [
       "tall performance",
       "big performance",
       "strong performance"
     ],
-    "explanationJa": "performance は high と組み合わせると「高い性能」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high performance をまとまりで覚えます。",
+    "explanationJa": "high performance は「高性能」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high performance.",
-        "ja": "その報告書では高い性能について触れていました。"
+        "en": "The laptop offers high performance for video editing.",
+        "ja": "そのノートPCは動画編集に十分な高性能を備えています。"
       },
       {
-        "en": "High performance can affect the final result.",
-        "ja": "高い性能は最終結果に影響することがあります。"
+        "en": "High performance is important for this type of software.",
+        "ja": "この種類のソフトウェアでは高性能であることが重要です。"
       }
     ]
   },
@@ -5471,45 +5471,45 @@ window.QUESTIONS = [
       "big cost",
       "strong cost"
     ],
-    "explanationJa": "cost は high と組み合わせると「高い費用」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high cost をまとまりで覚えます。",
+    "explanationJa": "high cost は「高い費用」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high cost.",
-        "ja": "その報告書では高い費用について触れていました。"
+        "en": "High cost is a major problem for small businesses.",
+        "ja": "高い費用は小規模企業にとって大きな問題です。"
       },
       {
-        "en": "High cost can affect the final result.",
-        "ja": "高い費用は最終結果に影響することがあります。"
+        "en": "The high cost of housing affects many families.",
+        "ja": "住宅費の高さは多くの家庭に影響しています。"
       }
     ]
   },
   {
     "id": "adj-high-score",
     "category": "Adjective + Noun",
-    "jaPrompt": "高い得点",
+    "jaPrompt": "高得点",
     "answer": "high score",
     "distractors": [
       "tall score",
       "big score",
       "strong score"
     ],
-    "explanationJa": "score は high と組み合わせると「高い得点」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high score をまとまりで覚えます。",
+    "explanationJa": "high score は「高得点」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high score.",
-        "ja": "その報告書では高い得点について触れていました。"
+        "en": "She got a high score on the English test.",
+        "ja": "彼女は英語のテストで高得点を取りました。"
       },
       {
-        "en": "High score can affect the final result.",
-        "ja": "高い得点は最終結果に影響することがあります。"
+        "en": "A high score helped him pass the exam.",
+        "ja": "高得点を取ったことで、彼は試験に合格できました。"
       }
     ]
   },
@@ -5523,45 +5523,45 @@ window.QUESTIONS = [
       "big value",
       "strong value"
     ],
-    "explanationJa": "value は high と組み合わせると「高い価値」を表しやすいです。日本語の「強い・大きい」に引っ張られず、high value をまとまりで覚えます。",
+    "explanationJa": "high value は「高い価値」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a high value.",
-        "ja": "その報告書では高い価値について触れていました。"
+        "en": "The painting has high value as a historical record.",
+        "ja": "その絵は歴史資料として高い価値があります。"
       },
       {
-        "en": "High value can affect the final result.",
-        "ja": "高い価値は最終結果に影響することがあります。"
+        "en": "The service provides high value for small teams.",
+        "ja": "そのサービスは小規模チームに高い価値を提供します。"
       }
     ]
   },
   {
     "id": "adj-deep-sleep",
     "category": "Adjective + Noun",
-    "jaPrompt": "深い眠り",
+    "jaPrompt": "深い睡眠",
     "answer": "deep sleep",
     "distractors": [
       "heavy sleep",
       "strong sleep",
       "large sleep"
     ],
-    "explanationJa": "sleep は deep と組み合わせると「深い眠り」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep sleep をまとまりで覚えます。",
+    "explanationJa": "deep sleep は「深い睡眠」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep sleep.",
-        "ja": "その報告書では深い眠りについて触れていました。"
+        "en": "Deep sleep helps the body recover.",
+        "ja": "深い睡眠は体の回復を助けます。"
       },
       {
-        "en": "Deep sleep can affect the final result.",
-        "ja": "深い眠りは最終結果に影響することがあります。"
+        "en": "Stress can make it difficult to get deep sleep.",
+        "ja": "ストレスがあると深い睡眠を取りにくくなります。"
       }
     ]
   },
@@ -5575,19 +5575,19 @@ window.QUESTIONS = [
       "strong understanding",
       "large understanding"
     ],
-    "explanationJa": "understanding は deep と組み合わせると「深い理解」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep understanding をまとまりで覚えます。",
+    "explanationJa": "deep understanding は「深い理解」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep understanding.",
-        "ja": "その報告書では深い理解について触れていました。"
+        "en": "She has a deep understanding of Japanese culture.",
+        "ja": "彼女は日本文化を深く理解しています。"
       },
       {
-        "en": "Deep understanding can affect the final result.",
-        "ja": "深い理解は最終結果に影響することがあります。"
+        "en": "The course gave me a deep understanding of grammar.",
+        "ja": "その講座で文法への理解が深まりました。"
       }
     ]
   },
@@ -5601,19 +5601,19 @@ window.QUESTIONS = [
       "strong concern",
       "large concern"
     ],
-    "explanationJa": "concern は deep と組み合わせると「深い懸念」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep concern をまとまりで覚えます。",
+    "explanationJa": "deep concern は「深い懸念」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep concern.",
-        "ja": "その報告書では深い懸念について触れていました。"
+        "en": "Parents expressed deep concern about safety.",
+        "ja": "保護者たちは安全性について深い懸念を示しました。"
       },
       {
-        "en": "Deep concern can affect the final result.",
-        "ja": "深い懸念は最終結果に影響することがあります。"
+        "en": "The news caused deep concern among local residents.",
+        "ja": "そのニュースは地域住民に深い不安をもたらしました。"
       }
     ]
   },
@@ -5627,45 +5627,45 @@ window.QUESTIONS = [
       "strong knowledge",
       "large knowledge"
     ],
-    "explanationJa": "knowledge は deep と組み合わせると「深い知識」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep knowledge をまとまりで覚えます。",
+    "explanationJa": "deep knowledge は「深い知識」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned deep knowledge.",
-        "ja": "その報告書では深い知識について触れていました。"
+        "en": "He has deep knowledge of network security.",
+        "ja": "彼はネットワークセキュリティについて深い知識があります。"
       },
       {
-        "en": "Deep knowledge can affect the final result.",
-        "ja": "深い知識は最終結果に影響することがあります。"
+        "en": "Deep knowledge of the system helped her solve the issue.",
+        "ja": "システムへの深い知識が、彼女の問題解決に役立ちました。"
       }
     ]
   },
   {
     "id": "adj-deep-respect",
     "category": "Adjective + Noun",
-    "jaPrompt": "深い敬意",
+    "jaPrompt": "深い尊敬",
     "answer": "deep respect",
     "distractors": [
       "heavy respect",
       "strong respect",
       "large respect"
     ],
-    "explanationJa": "respect は deep と組み合わせると「深い敬意」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep respect をまとまりで覚えます。",
+    "explanationJa": "deep respect は「深い尊敬」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep respect.",
-        "ja": "その報告書では深い敬意について触れていました。"
+        "en": "I have deep respect for her work.",
+        "ja": "私は彼女の仕事を深く尊敬しています。"
       },
       {
-        "en": "Deep respect can affect the final result.",
-        "ja": "深い敬意は最終結果に影響することがあります。"
+        "en": "The team showed deep respect for their former manager.",
+        "ja": "チームは前任のマネージャーに深い敬意を示しました。"
       }
     ]
   },
@@ -5679,45 +5679,45 @@ window.QUESTIONS = [
       "strong conversation",
       "large conversation"
     ],
-    "explanationJa": "conversation は deep と組み合わせると「深い会話」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep conversation をまとまりで覚えます。",
+    "explanationJa": "deep conversation は「深い会話」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep conversation.",
-        "ja": "その報告書では深い会話について触れていました。"
+        "en": "We had a deep conversation about life and work.",
+        "ja": "私たちは人生と仕事について深く話し合いました。"
       },
       {
-        "en": "Deep conversation can affect the final result.",
-        "ja": "深い会話は最終結果に影響することがあります。"
+        "en": "A deep conversation can change how you see a problem.",
+        "ja": "深い会話によって問題の見方が変わることがあります。"
       }
     ]
   },
   {
     "id": "adj-deep-breath",
     "category": "Adjective + Noun",
-    "jaPrompt": "深い呼吸",
+    "jaPrompt": "深呼吸",
     "answer": "deep breath",
     "distractors": [
       "heavy breath",
       "strong breath",
       "large breath"
     ],
-    "explanationJa": "breath は deep と組み合わせると「深い呼吸」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep breath をまとまりで覚えます。",
+    "explanationJa": "deep breath は「深呼吸」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep breath.",
-        "ja": "その報告書では深い呼吸について触れていました。"
+        "en": "Take a deep breath before you speak.",
+        "ja": "話す前に深呼吸してください。"
       },
       {
-        "en": "Deep breath can affect the final result.",
-        "ja": "深い呼吸は最終結果に影響することがあります。"
+        "en": "She took a deep breath to calm herself.",
+        "ja": "彼女は落ち着くために深呼吸しました。"
       }
     ]
   },
@@ -5731,19 +5731,19 @@ window.QUESTIONS = [
       "strong water",
       "large water"
     ],
-    "explanationJa": "water は deep と組み合わせると「深い水」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep water をまとまりで覚えます。",
+    "explanationJa": "deep water は「深い水」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned deep water.",
-        "ja": "その報告書では深い水について触れていました。"
+        "en": "Children should not swim in deep water alone.",
+        "ja": "子どもは深い水の中で一人で泳ぐべきではありません。"
       },
       {
-        "en": "Deep water can affect the final result.",
-        "ja": "深い水は最終結果に影響することがあります。"
+        "en": "The boat moved slowly through deep water.",
+        "ja": "船は深い水域をゆっくり進みました。"
       }
     ]
   },
@@ -5757,19 +5757,19 @@ window.QUESTIONS = [
       "strong analysis",
       "large analysis"
     ],
-    "explanationJa": "analysis は deep と組み合わせると「深い分析」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep analysis をまとまりで覚えます。",
+    "explanationJa": "deep analysis は「深い分析」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned deep analysis.",
-        "ja": "その報告書では深い分析について触れていました。"
+        "en": "The report includes a deep analysis of customer behavior.",
+        "ja": "その報告書には顧客行動の深い分析が含まれています。"
       },
       {
-        "en": "Deep analysis can affect the final result.",
-        "ja": "深い分析は最終結果に影響することがあります。"
+        "en": "We need a deep analysis before changing the strategy.",
+        "ja": "戦略を変える前に深い分析が必要です。"
       }
     ]
   },
@@ -5783,19 +5783,19 @@ window.QUESTIONS = [
       "strong connection",
       "large connection"
     ],
-    "explanationJa": "connection は deep と組み合わせると「深いつながり」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep connection をまとまりで覚えます。",
+    "explanationJa": "deep connection は「深いつながり」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep connection.",
-        "ja": "その報告書では深いつながりについて触れていました。"
+        "en": "There is a deep connection between language and culture.",
+        "ja": "言語と文化には深いつながりがあります。"
       },
       {
-        "en": "Deep connection can affect the final result.",
-        "ja": "深いつながりは最終結果に影響することがあります。"
+        "en": "She felt a deep connection with the city.",
+        "ja": "彼女はその街に深いつながりを感じました。"
       }
     ]
   },
@@ -5809,19 +5809,19 @@ window.QUESTIONS = [
       "strong roots",
       "large roots"
     ],
-    "explanationJa": "roots は deep と組み合わせると「深い根」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep roots をまとまりで覚えます。",
+    "explanationJa": "deep roots は「深い根」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned deep roots.",
-        "ja": "その報告書では深い根について触れていました。"
+        "en": "This tradition has deep roots in the community.",
+        "ja": "この伝統は地域社会に深く根付いています。"
       },
       {
-        "en": "Deep roots can affect the final result.",
-        "ja": "深い根は最終結果に影響することがあります。"
+        "en": "The problem has deep roots in the old process.",
+        "ja": "その問題は古い手順に深く根ざしています。"
       }
     ]
   },
@@ -5835,45 +5835,45 @@ window.QUESTIONS = [
       "strong sadness",
       "large sadness"
     ],
-    "explanationJa": "sadness は deep と組み合わせると「深い悲しみ」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep sadness をまとまりで覚えます。",
+    "explanationJa": "deep sadness は「深い悲しみ」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned deep sadness.",
-        "ja": "その報告書では深い悲しみについて触れていました。"
+        "en": "The news filled the family with deep sadness.",
+        "ja": "その知らせは家族に深い悲しみをもたらしました。"
       },
       {
-        "en": "Deep sadness can affect the final result.",
-        "ja": "深い悲しみは最終結果に影響することがあります。"
+        "en": "She felt deep sadness after losing her friend.",
+        "ja": "友人を失って、彼女は深い悲しみを感じました。"
       }
     ]
   },
   {
     "id": "adj-deep-learning",
     "category": "Adjective + Noun",
-    "jaPrompt": "深い学び",
+    "jaPrompt": "深層学習",
     "answer": "deep learning",
     "distractors": [
       "heavy learning",
       "strong learning",
       "large learning"
     ],
-    "explanationJa": "learning は deep と組み合わせると「深い学び」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep learning をまとまりで覚えます。",
+    "explanationJa": "deep learning は「深層学習」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep learning.",
-        "ja": "その報告書では深い学びについて触れていました。"
+        "en": "Deep learning is used in image recognition.",
+        "ja": "深層学習は画像認識に使われています。"
       },
       {
-        "en": "Deep learning can affect the final result.",
-        "ja": "深い学びは最終結果に影響することがあります。"
+        "en": "The course explains the basics of deep learning.",
+        "ja": "その講座では深層学習の基礎を説明します。"
       }
     ]
   },
@@ -5887,19 +5887,19 @@ window.QUESTIONS = [
       "strong focus",
       "large focus"
     ],
-    "explanationJa": "focus は deep と組み合わせると「深い集中」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep focus をまとまりで覚えます。",
+    "explanationJa": "deep focus は「深い集中」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned deep focus.",
-        "ja": "その報告書では深い集中について触れていました。"
+        "en": "Deep focus helps me finish difficult tasks.",
+        "ja": "深く集中すると難しい作業を終えやすくなります。"
       },
       {
-        "en": "Deep focus can affect the final result.",
-        "ja": "深い集中は最終結果に影響することがあります。"
+        "en": "She needs deep focus when writing reports.",
+        "ja": "彼女は報告書を書くときに深い集中が必要です。"
       }
     ]
   },
@@ -5913,409 +5913,409 @@ window.QUESTIONS = [
       "strong insight",
       "large insight"
     ],
-    "explanationJa": "insight は deep と組み合わせると「深い洞察」を表しやすいです。日本語の「強い・大きい」に引っ張られず、deep insight をまとまりで覚えます。",
+    "explanationJa": "deep insight は「深い洞察」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a deep insight.",
-        "ja": "その報告書では深い洞察について触れていました。"
+        "en": "The interview gave us deep insight into customer needs.",
+        "ja": "そのインタビューから顧客ニーズへの深い洞察が得られました。"
       },
       {
-        "en": "Deep insight can affect the final result.",
-        "ja": "深い洞察は最終結果に影響することがあります。"
+        "en": "His book offers deep insight into human behavior.",
+        "ja": "彼の本は人間の行動について深い洞察を与えてくれます。"
       }
     ]
   },
   {
     "id": "adj-close-friend",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い友人",
+    "jaPrompt": "親しい友人",
     "answer": "close friend",
     "distractors": [
       "near friend",
       "tight friend",
       "short friend"
     ],
-    "explanationJa": "friend は close と組み合わせると「密接な・近い友人」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close friend をまとまりで覚えます。",
+    "explanationJa": "close friend は「親しい友人」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close friend.",
-        "ja": "その報告書では密接な・近い友人について触れていました。"
+        "en": "She is one of my close friends.",
+        "ja": "彼女は私の親しい友人の一人です。"
       },
       {
-        "en": "Close friend can affect the final result.",
-        "ja": "密接な・近い友人は最終結果に影響することがあります。"
+        "en": "I talked to a close friend about the problem.",
+        "ja": "その問題について親しい友人に相談しました。"
       }
     ]
   },
   {
     "id": "adj-close-relationship",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い関係",
+    "jaPrompt": "親密な関係",
     "answer": "close relationship",
     "distractors": [
       "near relationship",
       "tight relationship",
       "short relationship"
     ],
-    "explanationJa": "relationship は close と組み合わせると「密接な・近い関係」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close relationship をまとまりで覚えます。",
+    "explanationJa": "close relationship は「親密な関係」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close relationship.",
-        "ja": "その報告書では密接な・近い関係について触れていました。"
+        "en": "The two companies have a close relationship.",
+        "ja": "その2社は密接な関係にあります。"
       },
       {
-        "en": "Close relationship can affect the final result.",
-        "ja": "密接な・近い関係は最終結果に影響することがあります。"
+        "en": "A close relationship with customers is important.",
+        "ja": "顧客との親密な関係は重要です。"
       }
     ]
   },
   {
     "id": "adj-close-attention",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い注意",
+    "jaPrompt": "細心の注意",
     "answer": "close attention",
     "distractors": [
       "near attention",
       "tight attention",
       "short attention"
     ],
-    "explanationJa": "attention は close と組み合わせると「密接な・近い注意」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close attention をまとまりで覚えます。",
+    "explanationJa": "close attention は「細心の注意」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned close attention.",
-        "ja": "その報告書では密接な・近い注意について触れていました。"
+        "en": "Please pay close attention to the instructions.",
+        "ja": "指示をよく確認してください。"
       },
       {
-        "en": "Close attention can affect the final result.",
-        "ja": "密接な・近い注意は最終結果に影響することがあります。"
+        "en": "The teacher paid close attention to each student's progress.",
+        "ja": "先生はそれぞれの学生の進歩を細かく見ていました。"
       }
     ]
   },
   {
     "id": "adj-close-contact",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い連絡",
+    "jaPrompt": "密接な接触",
     "answer": "close contact",
     "distractors": [
       "near contact",
       "tight contact",
       "short contact"
     ],
-    "explanationJa": "contact は close と組み合わせると「密接な・近い連絡」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close contact をまとまりで覚えます。",
+    "explanationJa": "close contact は「密接な接触」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close contact.",
-        "ja": "その報告書では密接な・近い連絡について触れていました。"
+        "en": "The nurse had close contact with the patient.",
+        "ja": "看護師はその患者と密接に接していました。"
       },
       {
-        "en": "Close contact can affect the final result.",
-        "ja": "密接な・近い連絡は最終結果に影響することがあります。"
+        "en": "Avoid close contact if you feel sick.",
+        "ja": "体調が悪いときは密接な接触を避けてください。"
       }
     ]
   },
   {
     "id": "adj-close-cooperation",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い協力",
+    "jaPrompt": "緊密な協力",
     "answer": "close cooperation",
     "distractors": [
       "near cooperation",
       "tight cooperation",
       "short cooperation"
     ],
-    "explanationJa": "cooperation は close と組み合わせると「密接な・近い協力」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close cooperation をまとまりで覚えます。",
+    "explanationJa": "close cooperation は「緊密な協力」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close cooperation.",
-        "ja": "その報告書では密接な・近い協力について触れていました。"
+        "en": "The project requires close cooperation between teams.",
+        "ja": "そのプロジェクトにはチーム間の緊密な協力が必要です。"
       },
       {
-        "en": "Close cooperation can affect the final result.",
-        "ja": "密接な・近い協力は最終結果に影響することがあります。"
+        "en": "Close cooperation helped us finish the work quickly.",
+        "ja": "緊密な協力のおかげで作業を早く終えられました。"
       }
     ]
   },
   {
     "id": "adj-close-connection",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近いつながり",
+    "jaPrompt": "密接なつながり",
     "answer": "close connection",
     "distractors": [
       "near connection",
       "tight connection",
       "short connection"
     ],
-    "explanationJa": "connection は close と組み合わせると「密接な・近いつながり」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close connection をまとまりで覚えます。",
+    "explanationJa": "close connection は「密接なつながり」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close connection.",
-        "ja": "その報告書では密接な・近いつながりについて触れていました。"
+        "en": "There is a close connection between price and demand.",
+        "ja": "価格と需要には密接な関係があります。"
       },
       {
-        "en": "Close connection can affect the final result.",
-        "ja": "密接な・近いつながりは最終結果に影響することがあります。"
+        "en": "The study shows a close connection between exercise and sleep.",
+        "ja": "その研究は運動と睡眠の密接な関係を示しています。"
       }
     ]
   },
   {
     "id": "adj-close-inspection",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い確認",
+    "jaPrompt": "綿密な検査",
     "answer": "close inspection",
     "distractors": [
       "near inspection",
       "tight inspection",
       "short inspection"
     ],
-    "explanationJa": "inspection は close と組み合わせると「密接な・近い確認」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close inspection をまとまりで覚えます。",
+    "explanationJa": "close inspection は「綿密な検査」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close inspection.",
-        "ja": "その報告書では密接な・近い確認について触れていました。"
+        "en": "The machine passed a close inspection.",
+        "ja": "その機械は綿密な検査に合格しました。"
       },
       {
-        "en": "Close inspection can affect the final result.",
-        "ja": "密接な・近い確認は最終結果に影響することがあります。"
+        "en": "Close inspection revealed a small crack.",
+        "ja": "詳しく調べると小さなひびが見つかりました。"
       }
     ]
   },
   {
     "id": "adj-close-look",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い一見",
+    "jaPrompt": "詳しい確認",
     "answer": "close look",
     "distractors": [
       "near look",
       "tight look",
       "short look"
     ],
-    "explanationJa": "look は close と組み合わせると「密接な・近い一見」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close look をまとまりで覚えます。",
+    "explanationJa": "close look は「詳しい確認」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close look.",
-        "ja": "その報告書では密接な・近い一見について触れていました。"
+        "en": "Let's take a close look at the data.",
+        "ja": "データを詳しく見てみましょう。"
       },
       {
-        "en": "Close look can affect the final result.",
-        "ja": "密接な・近い一見は最終結果に影響することがあります。"
+        "en": "A close look at the report shows the real problem.",
+        "ja": "報告書を詳しく見ると本当の問題が分かります。"
       }
     ]
   },
   {
     "id": "adj-close-relative",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い親族",
+    "jaPrompt": "近い親戚",
     "answer": "close relative",
     "distractors": [
       "near relative",
       "tight relative",
       "short relative"
     ],
-    "explanationJa": "relative は close と組み合わせると「密接な・近い親族」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close relative をまとまりで覚えます。",
+    "explanationJa": "close relative は「近い親戚」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close relative.",
-        "ja": "その報告書では密接な・近い親族について触れていました。"
+        "en": "Only close relatives attended the small ceremony.",
+        "ja": "その小さな式には近い親戚だけが出席しました。"
       },
       {
-        "en": "Close relative can affect the final result.",
-        "ja": "密接な・近い親族は最終結果に影響することがあります。"
+        "en": "She stayed with a close relative during the trip.",
+        "ja": "彼女は旅行中、近い親戚の家に泊まりました。"
       }
     ]
   },
   {
     "id": "adj-close-competition",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い競争",
+    "jaPrompt": "接戦",
     "answer": "close competition",
     "distractors": [
       "near competition",
       "tight competition",
       "short competition"
     ],
-    "explanationJa": "competition は close と組み合わせると「密接な・近い競争」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close competition をまとまりで覚えます。",
+    "explanationJa": "close competition は「接戦」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close competition.",
-        "ja": "その報告書では密接な・近い競争について触れていました。"
+        "en": "The two teams are in close competition for first place.",
+        "ja": "その2チームは首位をめぐって接戦を繰り広げています。"
       },
       {
-        "en": "Close competition can affect the final result.",
-        "ja": "密接な・近い競争は最終結果に影響することがあります。"
+        "en": "Close competition pushed both companies to improve.",
+        "ja": "激しい競争が両社の改善を促しました。"
       }
     ]
   },
   {
     "id": "adj-close-match",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い試合",
+    "jaPrompt": "接戦",
     "answer": "close match",
     "distractors": [
       "near match",
       "tight match",
       "short match"
     ],
-    "explanationJa": "match は close と組み合わせると「密接な・近い試合」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close match をまとまりで覚えます。",
+    "explanationJa": "close match は「接戦」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close match.",
-        "ja": "その報告書では密接な・近い試合について触れていました。"
+        "en": "The final was a close match.",
+        "ja": "決勝は接戦でした。"
       },
       {
-        "en": "Close match can affect the final result.",
-        "ja": "密接な・近い試合は最終結果に影響することがあります。"
+        "en": "We lost a close match by one point.",
+        "ja": "私たちは1点差の接戦で負けました。"
       }
     ]
   },
   {
     "id": "adj-close-collaboration",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い協働",
+    "jaPrompt": "緊密な連携",
     "answer": "close collaboration",
     "distractors": [
       "near collaboration",
       "tight collaboration",
       "short collaboration"
     ],
-    "explanationJa": "collaboration は close と組み合わせると「密接な・近い協働」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close collaboration をまとまりで覚えます。",
+    "explanationJa": "close collaboration は「緊密な連携」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close collaboration.",
-        "ja": "その報告書では密接な・近い協働について触れていました。"
+        "en": "Close collaboration between departments improved the service.",
+        "ja": "部署間の緊密な連携によってサービスが改善しました。"
       },
       {
-        "en": "Close collaboration can affect the final result.",
-        "ja": "密接な・近い協働は最終結果に影響することがあります。"
+        "en": "The project depends on close collaboration with the client.",
+        "ja": "そのプロジェクトは顧客との緊密な連携にかかっています。"
       }
     ]
   },
   {
     "id": "adj-close-reading",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い読解",
+    "jaPrompt": "精読",
     "answer": "close reading",
     "distractors": [
       "near reading",
       "tight reading",
       "short reading"
     ],
-    "explanationJa": "reading は close と組み合わせると「密接な・近い読解」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close reading をまとまりで覚えます。",
+    "explanationJa": "close reading は「精読」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close reading.",
-        "ja": "その報告書では密接な・近い読解について触れていました。"
+        "en": "Close reading helps students understand the text deeply.",
+        "ja": "精読は学生が文章を深く理解する助けになります。"
       },
       {
-        "en": "Close reading can affect the final result.",
-        "ja": "密接な・近い読解は最終結果に影響することがあります。"
+        "en": "The class practiced close reading of a short article.",
+        "ja": "授業では短い記事を精読する練習をしました。"
       }
     ]
   },
   {
     "id": "adj-close-monitoring",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い監視",
+    "jaPrompt": "綿密な監視",
     "answer": "close monitoring",
     "distractors": [
       "near monitoring",
       "tight monitoring",
       "short monitoring"
     ],
-    "explanationJa": "monitoring は close と組み合わせると「密接な・近い監視」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close monitoring をまとまりで覚えます。",
+    "explanationJa": "close monitoring は「綿密な監視」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close monitoring.",
-        "ja": "その報告書では密接な・近い監視について触れていました。"
+        "en": "The patient requires close monitoring overnight.",
+        "ja": "その患者は夜通し注意深く観察する必要があります。"
       },
       {
-        "en": "Close monitoring can affect the final result.",
-        "ja": "密接な・近い監視は最終結果に影響することがあります。"
+        "en": "Close monitoring helped detect the problem early.",
+        "ja": "綿密な監視により問題を早期に発見できました。"
       }
     ]
   },
   {
     "id": "adj-close-examination",
     "category": "Adjective + Noun",
-    "jaPrompt": "密接な・近い調査",
+    "jaPrompt": "詳しい調査",
     "answer": "close examination",
     "distractors": [
       "near examination",
       "tight examination",
       "short examination"
     ],
-    "explanationJa": "examination は close と組み合わせると「密接な・近い調査」を表しやすいです。日本語の「強い・大きい」に引っ張られず、close examination をまとまりで覚えます。",
+    "explanationJa": "close examination は「詳しい調査」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close examination.",
-        "ja": "その報告書では密接な・近い調査について触れていました。"
+        "en": "A close examination of the data revealed a mistake.",
+        "ja": "データを詳しく調べるとミスが見つかりました。"
       },
       {
-        "en": "Close examination can affect the final result.",
-        "ja": "密接な・近い調査は最終結果に影響することがあります。"
+        "en": "The case needs close examination before a decision is made.",
+        "ja": "判断を下す前に、その件を詳しく調べる必要があります。"
       }
     ]
   },
@@ -6329,45 +6329,45 @@ window.QUESTIONS = [
       "big range",
       "thick range"
     ],
-    "explanationJa": "range は wide と組み合わせると「幅広い範囲」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide range をまとまりで覚えます。",
+    "explanationJa": "wide range は「幅広い範囲」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide range.",
-        "ja": "その報告書では幅広い範囲について触れていました。"
+        "en": "The store offers a wide range of products.",
+        "ja": "その店は幅広い商品を扱っています。"
       },
       {
-        "en": "Wide range can affect the final result.",
-        "ja": "幅広い範囲は最終結果に影響することがあります。"
+        "en": "The course covers a wide range of topics.",
+        "ja": "その講座は幅広いテーマを扱います。"
       }
     ]
   },
   {
     "id": "adj-wide-variety",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い種類",
+    "jaPrompt": "多種多様",
     "answer": "wide variety",
     "distractors": [
       "large variety",
       "big variety",
       "thick variety"
     ],
-    "explanationJa": "variety は wide と組み合わせると「幅広い種類」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide variety をまとまりで覚えます。",
+    "explanationJa": "wide variety は「多種多様」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide variety.",
-        "ja": "その報告書では幅広い種類について触れていました。"
+        "en": "The menu offers a wide variety of dishes.",
+        "ja": "そのメニューには多種多様な料理があります。"
       },
       {
-        "en": "Wide variety can affect the final result.",
-        "ja": "幅広い種類は最終結果に影響することがあります。"
+        "en": "Students can choose from a wide variety of classes.",
+        "ja": "学生は多様な授業から選べます。"
       }
     ]
   },
@@ -6381,97 +6381,97 @@ window.QUESTIONS = [
       "big choice",
       "thick choice"
     ],
-    "explanationJa": "choice は wide と組み合わせると「幅広い選択肢」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide choice をまとまりで覚えます。",
+    "explanationJa": "wide choice は「幅広い選択肢」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide choice.",
-        "ja": "その報告書では幅広い選択肢について触れていました。"
+        "en": "Online shopping gives customers a wide choice.",
+        "ja": "オンラインショッピングでは顧客に幅広い選択肢があります。"
       },
       {
-        "en": "Wide choice can affect the final result.",
-        "ja": "幅広い選択肢は最終結果に影響することがあります。"
+        "en": "The school offers a wide choice of language courses.",
+        "ja": "その学校は幅広い語学講座を提供しています。"
       }
     ]
   },
   {
     "id": "adj-wide-selection",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い選択肢",
+    "jaPrompt": "幅広い品ぞろえ",
     "answer": "wide selection",
     "distractors": [
       "large selection",
       "big selection",
       "thick selection"
     ],
-    "explanationJa": "selection は wide と組み合わせると「幅広い選択肢」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide selection をまとまりで覚えます。",
+    "explanationJa": "wide selection は「幅広い品ぞろえ」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide selection.",
-        "ja": "その報告書では幅広い選択肢について触れていました。"
+        "en": "The shop has a wide selection of notebooks.",
+        "ja": "その店にはノートが幅広くそろっています。"
       },
       {
-        "en": "Wide selection can affect the final result.",
-        "ja": "幅広い選択肢は最終結果に影響することがあります。"
+        "en": "Customers appreciate the wide selection of colors.",
+        "ja": "顧客は豊富な色の選択肢を評価しています。"
       }
     ]
   },
   {
     "id": "adj-wide-audience",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い聴衆",
+    "jaPrompt": "幅広い観客・読者",
     "answer": "wide audience",
     "distractors": [
       "large audience",
       "big audience",
       "thick audience"
     ],
-    "explanationJa": "audience は wide と組み合わせると「幅広い聴衆」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide audience をまとまりで覚えます。",
+    "explanationJa": "wide audience は「幅広い観客・読者」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide audience.",
-        "ja": "その報告書では幅広い聴衆について触れていました。"
+        "en": "The movie attracted a wide audience.",
+        "ja": "その映画は幅広い観客を引きつけました。"
       },
       {
-        "en": "Wide audience can affect the final result.",
-        "ja": "幅広い聴衆は最終結果に影響することがあります。"
+        "en": "Her blog reaches a wide audience.",
+        "ja": "彼女のブログは幅広い読者に届いています。"
       }
     ]
   },
   {
     "id": "adj-wide-gap",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い差",
+    "jaPrompt": "大きな差",
     "answer": "wide gap",
     "distractors": [
       "large gap",
       "big gap",
       "thick gap"
     ],
-    "explanationJa": "gap は wide と組み合わせると「幅広い差」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide gap をまとまりで覚えます。",
+    "explanationJa": "wide gap は「大きな差」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide gap.",
-        "ja": "その報告書では幅広い差について触れていました。"
+        "en": "There is a wide gap between rich and poor areas.",
+        "ja": "裕福な地域と貧しい地域の間には大きな差があります。"
       },
       {
-        "en": "Wide gap can affect the final result.",
-        "ja": "幅広い差は最終結果に影響することがあります。"
+        "en": "The survey showed a wide gap in test scores.",
+        "ja": "その調査ではテストの点数に大きな差が見られました。"
       }
     ]
   },
@@ -6485,19 +6485,19 @@ window.QUESTIONS = [
       "big experience",
       "thick experience"
     ],
-    "explanationJa": "experience は wide と組み合わせると「幅広い経験」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide experience をまとまりで覚えます。",
+    "explanationJa": "wide experience は「幅広い経験」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned wide experience.",
-        "ja": "その報告書では幅広い経験について触れていました。"
+        "en": "She has wide experience in project management.",
+        "ja": "彼女はプロジェクト管理で幅広い経験があります。"
       },
       {
-        "en": "Wide experience can affect the final result.",
-        "ja": "幅広い経験は最終結果に影響することがあります。"
+        "en": "Wide experience helps him solve unusual problems.",
+        "ja": "幅広い経験が、彼が珍しい問題を解決する助けになっています。"
       }
     ]
   },
@@ -6511,19 +6511,19 @@ window.QUESTIONS = [
       "big knowledge",
       "thick knowledge"
     ],
-    "explanationJa": "knowledge は wide と組み合わせると「幅広い知識」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide knowledge をまとまりで覚えます。",
+    "explanationJa": "wide knowledge は「幅広い知識」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned wide knowledge.",
-        "ja": "その報告書では幅広い知識について触れていました。"
+        "en": "The guide has wide knowledge of local history.",
+        "ja": "そのガイドは地域の歴史について幅広い知識があります。"
       },
       {
-        "en": "Wide knowledge can affect the final result.",
-        "ja": "幅広い知識は最終結果に影響することがあります。"
+        "en": "Wide knowledge is useful when working with different teams.",
+        "ja": "さまざまなチームと働くとき、幅広い知識は役に立ちます。"
       }
     ]
   },
@@ -6537,45 +6537,45 @@ window.QUESTIONS = [
       "big support",
       "thick support"
     ],
-    "explanationJa": "support は wide と組み合わせると「幅広い支持」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide support をまとまりで覚えます。",
+    "explanationJa": "wide support は「幅広い支持」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned wide support.",
-        "ja": "その報告書では幅広い支持について触れていました。"
+        "en": "The policy gained wide support from voters.",
+        "ja": "その政策は有権者から幅広い支持を得ました。"
       },
       {
-        "en": "Wide support can affect the final result.",
-        "ja": "幅広い支持は最終結果に影響することがあります。"
+        "en": "The project needs wide support to continue.",
+        "ja": "そのプロジェクトを続けるには幅広い支持が必要です。"
       }
     ]
   },
   {
     "id": "adj-wide-coverage",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い範囲",
+    "jaPrompt": "広範な報道・対応範囲",
     "answer": "wide coverage",
     "distractors": [
       "large coverage",
       "big coverage",
       "thick coverage"
     ],
-    "explanationJa": "coverage は wide と組み合わせると「幅広い範囲」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide coverage をまとまりで覚えます。",
+    "explanationJa": "wide coverage は「広範な報道・対応範囲」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide coverage.",
-        "ja": "その報告書では幅広い範囲について触れていました。"
+        "en": "The event received wide coverage in the media.",
+        "ja": "そのイベントはメディアで広く報道されました。"
       },
       {
-        "en": "Wide coverage can affect the final result.",
-        "ja": "幅広い範囲は最終結果に影響することがあります。"
+        "en": "The insurance plan offers wide coverage.",
+        "ja": "その保険プランは幅広い範囲を補償します。"
       }
     ]
   },
@@ -6589,45 +6589,45 @@ window.QUESTIONS = [
       "big application",
       "thick application"
     ],
-    "explanationJa": "application は wide と組み合わせると「幅広い応用」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide application をまとまりで覚えます。",
+    "explanationJa": "wide application は「幅広い応用」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide application.",
-        "ja": "その報告書では幅広い応用について触れていました。"
+        "en": "This technology has wide application in medicine.",
+        "ja": "この技術は医療分野で幅広く応用できます。"
       },
       {
-        "en": "Wide application can affect the final result.",
-        "ja": "幅広い応用は最終結果に影響することがあります。"
+        "en": "The method has wide application in language learning.",
+        "ja": "その方法は語学学習に幅広く応用できます。"
       }
     ]
   },
   {
     "id": "adj-wide-perspective",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い視点",
+    "jaPrompt": "広い視野",
     "answer": "wide perspective",
     "distractors": [
       "large perspective",
       "big perspective",
       "thick perspective"
     ],
-    "explanationJa": "perspective は wide と組み合わせると「幅広い視点」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide perspective をまとまりで覚えます。",
+    "explanationJa": "wide perspective は「広い視野」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide perspective.",
-        "ja": "その報告書では幅広い視点について触れていました。"
+        "en": "Travel can give you a wide perspective.",
+        "ja": "旅行は広い視野を与えてくれます。"
       },
       {
-        "en": "Wide perspective can affect the final result.",
-        "ja": "幅広い視点は最終結果に影響することがあります。"
+        "en": "A wide perspective helps managers make better decisions.",
+        "ja": "広い視野は管理職がよりよい判断をする助けになります。"
       }
     ]
   },
@@ -6641,19 +6641,19 @@ window.QUESTIONS = [
       "big interest",
       "thick interest"
     ],
-    "explanationJa": "interest は wide と組み合わせると「幅広い関心」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide interest をまとまりで覚えます。",
+    "explanationJa": "wide interest は「幅広い関心」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide interest.",
-        "ja": "その報告書では幅広い関心について触れていました。"
+        "en": "The discovery attracted wide interest among scientists.",
+        "ja": "その発見は科学者の間で幅広い関心を集めました。"
       },
       {
-        "en": "Wide interest can affect the final result.",
-        "ja": "幅広い関心は最終結果に影響することがあります。"
+        "en": "The topic generated wide interest online.",
+        "ja": "その話題はネット上で幅広い関心を集めました。"
       }
     ]
   },
@@ -6667,435 +6667,435 @@ window.QUESTIONS = [
       "big appeal",
       "thick appeal"
     ],
-    "explanationJa": "appeal は wide と組み合わせると「幅広い魅力」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide appeal をまとまりで覚えます。",
+    "explanationJa": "wide appeal は「幅広い魅力」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide appeal.",
-        "ja": "その報告書では幅広い魅力について触れていました。"
+        "en": "The product has wide appeal because it is easy to use.",
+        "ja": "その製品は使いやすいため幅広い層に受け入れられています。"
       },
       {
-        "en": "Wide appeal can affect the final result.",
-        "ja": "幅広い魅力は最終結果に影響することがあります。"
+        "en": "The story has wide appeal for both children and adults.",
+        "ja": "その物語は子どもにも大人にも広く魅力があります。"
       }
     ]
   },
   {
     "id": "adj-wide-distribution",
     "category": "Adjective + Noun",
-    "jaPrompt": "幅広い分布",
+    "jaPrompt": "広い流通",
     "answer": "wide distribution",
     "distractors": [
       "large distribution",
       "big distribution",
       "thick distribution"
     ],
-    "explanationJa": "distribution は wide と組み合わせると「幅広い分布」を表しやすいです。日本語の「強い・大きい」に引っ張られず、wide distribution をまとまりで覚えます。",
+    "explanationJa": "wide distribution は「広い流通」を表す自然な英語のまとまりです。形容詞と名詞の相性を、フレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a wide distribution.",
-        "ja": "その報告書では幅広い分布について触れていました。"
+        "en": "The magazine has wide distribution across the country.",
+        "ja": "その雑誌は全国に広く流通しています。"
       },
       {
-        "en": "Wide distribution can affect the final result.",
-        "ja": "幅広い分布は最終結果に影響することがあります。"
+        "en": "Wide distribution helped the product become popular quickly.",
+        "ja": "広い流通網のおかげで、その製品はすぐに人気になりました。"
       }
     ]
   },
   {
     "id": "adj-significant-increase",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな増加",
+    "jaPrompt": "大幅な増加",
     "answer": "significant increase",
     "distractors": [
       "big increase",
       "large increase",
       "strong increase"
     ],
-    "explanationJa": "increase は significant と組み合わせると「重要な・大きな増加」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant increase をまとまりで覚えます。",
+    "explanationJa": "significant increase は「大幅な増加」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant increase.",
-        "ja": "その報告書では重要な・大きな増加について触れていました。"
+        "en": "There was a significant increase in online orders.",
+        "ja": "オンライン注文が大幅に増えました。"
       },
       {
-        "en": "Significant increase can affect the final result.",
-        "ja": "重要な・大きな増加は最終結果に影響することがあります。"
+        "en": "The city saw a significant increase in tourists.",
+        "ja": "その市では観光客が大幅に増加しました。"
       }
     ]
   },
   {
     "id": "adj-significant-difference",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな違い",
+    "jaPrompt": "大きな違い",
     "answer": "significant difference",
     "distractors": [
       "big difference",
       "large difference",
       "strong difference"
     ],
-    "explanationJa": "difference は significant と組み合わせると「重要な・大きな違い」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant difference をまとまりで覚えます。",
+    "explanationJa": "significant difference は「大きな違い」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant difference.",
-        "ja": "その報告書では重要な・大きな違いについて触れていました。"
+        "en": "There is a significant difference between the two results.",
+        "ja": "2つの結果には大きな違いがあります。"
       },
       {
-        "en": "Significant difference can affect the final result.",
-        "ja": "重要な・大きな違いは最終結果に影響することがあります。"
+        "en": "Small changes in wording can make a significant difference.",
+        "ja": "言い方を少し変えるだけで大きな違いが出ることがあります。"
       }
     ]
   },
   {
     "id": "adj-significant-impact",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな影響",
+    "jaPrompt": "大きな影響",
     "answer": "significant impact",
     "distractors": [
       "big impact",
       "large impact",
       "strong impact"
     ],
-    "explanationJa": "impact は significant と組み合わせると「重要な・大きな影響」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant impact をまとまりで覚えます。",
+    "explanationJa": "significant impact は「大きな影響」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant impact.",
-        "ja": "その報告書では重要な・大きな影響について触れていました。"
+        "en": "The new law had a significant impact on small businesses.",
+        "ja": "新しい法律は小規模企業に大きな影響を与えました。"
       },
       {
-        "en": "Significant impact can affect the final result.",
-        "ja": "重要な・大きな影響は最終結果に影響することがあります。"
+        "en": "Sleep has a significant impact on memory.",
+        "ja": "睡眠は記憶に大きな影響を与えます。"
       }
     ]
   },
   {
     "id": "adj-significant-change",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな変化",
+    "jaPrompt": "大きな変化",
     "answer": "significant change",
     "distractors": [
       "big change",
       "large change",
       "strong change"
     ],
-    "explanationJa": "change は significant と組み合わせると「重要な・大きな変化」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant change をまとまりで覚えます。",
+    "explanationJa": "significant change は「大きな変化」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant change.",
-        "ja": "その報告書では重要な・大きな変化について触れていました。"
+        "en": "The update made a significant change to the screen layout.",
+        "ja": "その更新で画面レイアウトが大きく変わりました。"
       },
       {
-        "en": "Significant change can affect the final result.",
-        "ja": "重要な・大きな変化は最終結果に影響することがあります。"
+        "en": "There has been a significant change in customer behavior.",
+        "ja": "顧客の行動に大きな変化がありました。"
       }
     ]
   },
   {
     "id": "adj-significant-improvement",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな改善",
+    "jaPrompt": "大きな改善",
     "answer": "significant improvement",
     "distractors": [
       "big improvement",
       "large improvement",
       "strong improvement"
     ],
-    "explanationJa": "improvement は significant と組み合わせると「重要な・大きな改善」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant improvement をまとまりで覚えます。",
+    "explanationJa": "significant improvement は「大きな改善」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant improvement.",
-        "ja": "その報告書では重要な・大きな改善について触れていました。"
+        "en": "The new process led to a significant improvement in speed.",
+        "ja": "新しい手順によって処理速度が大きく改善しました。"
       },
       {
-        "en": "Significant improvement can affect the final result.",
-        "ja": "重要な・大きな改善は最終結果に影響することがあります。"
+        "en": "Her pronunciation showed significant improvement.",
+        "ja": "彼女の発音には大きな改善が見られました。"
       }
     ]
   },
   {
     "id": "adj-significant-effect",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな効果",
+    "jaPrompt": "大きな効果",
     "answer": "significant effect",
     "distractors": [
       "big effect",
       "large effect",
       "strong effect"
     ],
-    "explanationJa": "effect は significant と組み合わせると「重要な・大きな効果」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant effect をまとまりで覚えます。",
+    "explanationJa": "significant effect は「大きな効果」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant effect.",
-        "ja": "その報告書では重要な・大きな効果について触れていました。"
+        "en": "The training had a significant effect on productivity.",
+        "ja": "その研修は生産性に大きな効果をもたらしました。"
       },
       {
-        "en": "Significant effect can affect the final result.",
-        "ja": "重要な・大きな効果は最終結果に影響することがあります。"
+        "en": "Even a small habit can have a significant effect over time.",
+        "ja": "小さな習慣でも時間がたつと大きな効果を生むことがあります。"
       }
     ]
   },
   {
     "id": "adj-significant-role",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな役割",
+    "jaPrompt": "重要な役割",
     "answer": "significant role",
     "distractors": [
       "big role",
       "large role",
       "strong role"
     ],
-    "explanationJa": "role は significant と組み合わせると「重要な・大きな役割」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant role をまとまりで覚えます。",
+    "explanationJa": "significant role は「重要な役割」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant role.",
-        "ja": "その報告書では重要な・大きな役割について触れていました。"
+        "en": "Communication plays a significant role in teamwork.",
+        "ja": "コミュニケーションはチームワークで重要な役割を果たします。"
       },
       {
-        "en": "Significant role can affect the final result.",
-        "ja": "重要な・大きな役割は最終結果に影響することがあります。"
+        "en": "Data played a significant role in the decision.",
+        "ja": "その判断ではデータが重要な役割を果たしました。"
       }
     ]
   },
   {
     "id": "adj-significant-factor",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな要因",
+    "jaPrompt": "重要な要因",
     "answer": "significant factor",
     "distractors": [
       "big factor",
       "large factor",
       "strong factor"
     ],
-    "explanationJa": "factor は significant と組み合わせると「重要な・大きな要因」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant factor をまとまりで覚えます。",
+    "explanationJa": "significant factor は「重要な要因」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant factor.",
-        "ja": "その報告書では重要な・大きな要因について触れていました。"
+        "en": "Cost is a significant factor in this decision.",
+        "ja": "この判断では費用が重要な要因です。"
       },
       {
-        "en": "Significant factor can affect the final result.",
-        "ja": "重要な・大きな要因は最終結果に影響することがあります。"
+        "en": "Weather was a significant factor in the delay.",
+        "ja": "遅延の大きな要因は天候でした。"
       }
     ]
   },
   {
     "id": "adj-significant-evidence",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな証拠",
+    "jaPrompt": "重要な証拠",
     "answer": "significant evidence",
     "distractors": [
       "big evidence",
       "large evidence",
       "strong evidence"
     ],
-    "explanationJa": "evidence は significant と組み合わせると「重要な・大きな証拠」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant evidence をまとまりで覚えます。",
+    "explanationJa": "significant evidence は「重要な証拠」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned significant evidence.",
-        "ja": "その報告書では重要な・大きな証拠について触れていました。"
+        "en": "The study provides significant evidence for the theory.",
+        "ja": "その研究はその理論を支える重要な証拠を示しています。"
       },
       {
-        "en": "Significant evidence can affect the final result.",
-        "ja": "重要な・大きな証拠は最終結果に影響することがあります。"
+        "en": "Investigators found significant evidence in the documents.",
+        "ja": "調査員は書類の中に重要な証拠を見つけました。"
       }
     ]
   },
   {
     "id": "adj-significant-progress",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな進歩",
+    "jaPrompt": "大きな進展",
     "answer": "significant progress",
     "distractors": [
       "big progress",
       "large progress",
       "strong progress"
     ],
-    "explanationJa": "progress は significant と組み合わせると「重要な・大きな進歩」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant progress をまとまりで覚えます。",
+    "explanationJa": "significant progress は「大きな進展」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned significant progress.",
-        "ja": "その報告書では重要な・大きな進歩について触れていました。"
+        "en": "The team made significant progress this week.",
+        "ja": "チームは今週、大きな進展を遂げました。"
       },
       {
-        "en": "Significant progress can affect the final result.",
-        "ja": "重要な・大きな進歩は最終結果に影響することがあります。"
+        "en": "She has made significant progress in English.",
+        "ja": "彼女は英語で大きく上達しました。"
       }
     ]
   },
   {
     "id": "adj-significant-reduction",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな減少",
+    "jaPrompt": "大幅な削減",
     "answer": "significant reduction",
     "distractors": [
       "big reduction",
       "large reduction",
       "strong reduction"
     ],
-    "explanationJa": "reduction は significant と組み合わせると「重要な・大きな減少」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant reduction をまとまりで覚えます。",
+    "explanationJa": "significant reduction は「大幅な削減」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant reduction.",
-        "ja": "その報告書では重要な・大きな減少について触れていました。"
+        "en": "The company achieved a significant reduction in costs.",
+        "ja": "その会社は費用の大幅な削減を達成しました。"
       },
       {
-        "en": "Significant reduction can affect the final result.",
-        "ja": "重要な・大きな減少は最終結果に影響することがあります。"
+        "en": "The new system led to a significant reduction in errors.",
+        "ja": "新しいシステムによってエラーが大幅に減りました。"
       }
     ]
   },
   {
     "id": "adj-significant-challenge",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな課題",
+    "jaPrompt": "大きな課題",
     "answer": "significant challenge",
     "distractors": [
       "big challenge",
       "large challenge",
       "strong challenge"
     ],
-    "explanationJa": "challenge は significant と組み合わせると「重要な・大きな課題」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant challenge をまとまりで覚えます。",
+    "explanationJa": "significant challenge は「大きな課題」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant challenge.",
-        "ja": "その報告書では重要な・大きな課題について触れていました。"
+        "en": "Hiring enough staff remains a significant challenge.",
+        "ja": "十分な人員を採用することは依然として大きな課題です。"
       },
       {
-        "en": "Significant challenge can affect the final result.",
-        "ja": "重要な・大きな課題は最終結果に影響することがあります。"
+        "en": "Time management is a significant challenge for many learners.",
+        "ja": "時間管理は多くの学習者にとって大きな課題です。"
       }
     ]
   },
   {
     "id": "adj-significant-benefit",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな利点",
+    "jaPrompt": "大きな利点",
     "answer": "significant benefit",
     "distractors": [
       "big benefit",
       "large benefit",
       "strong benefit"
     ],
-    "explanationJa": "benefit は significant と組み合わせると「重要な・大きな利点」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant benefit をまとまりで覚えます。",
+    "explanationJa": "significant benefit は「大きな利点」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant benefit.",
-        "ja": "その報告書では重要な・大きな利点について触れていました。"
+        "en": "The new tool offers a significant benefit to small teams.",
+        "ja": "その新しいツールは小規模チームに大きな利点をもたらします。"
       },
       {
-        "en": "Significant benefit can affect the final result.",
-        "ja": "重要な・大きな利点は最終結果に影響することがあります。"
+        "en": "Regular review has a significant benefit for memory.",
+        "ja": "定期的な復習は記憶に大きな効果があります。"
       }
     ]
   },
   {
     "id": "adj-significant-relationship",
     "category": "Academic",
-    "jaPrompt": "重要な・大きな関係",
+    "jaPrompt": "重要な関係",
     "answer": "significant relationship",
     "distractors": [
       "big relationship",
       "large relationship",
       "strong relationship"
     ],
-    "explanationJa": "relationship は significant と組み合わせると「重要な・大きな関係」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant relationship をまとまりで覚えます。",
+    "explanationJa": "significant relationship は「重要な関係」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant relationship.",
-        "ja": "その報告書では重要な・大きな関係について触れていました。"
+        "en": "The study found a significant relationship between sleep and learning.",
+        "ja": "その研究では睡眠と学習の間に重要な関係が見つかりました。"
       },
       {
-        "en": "Significant relationship can affect the final result.",
-        "ja": "重要な・大きな関係は最終結果に影響することがあります。"
+        "en": "There is a significant relationship between price and demand.",
+        "ja": "価格と需要には重要な関係があります。"
       }
     ]
   },
   {
     "id": "adj-significant-variation",
     "category": "Academic",
-    "jaPrompt": "重要な・大きなばらつき",
+    "jaPrompt": "大きなばらつき",
     "answer": "significant variation",
     "distractors": [
       "big variation",
       "large variation",
       "strong variation"
     ],
-    "explanationJa": "variation は significant と組み合わせると「重要な・大きなばらつき」を表しやすいです。日本語の「強い・大きい」に引っ張られず、significant variation をまとまりで覚えます。",
+    "explanationJa": "significant variation は「大きなばらつき」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a significant variation.",
-        "ja": "その報告書では重要な・大きなばらつきについて触れていました。"
+        "en": "There was significant variation in the survey results.",
+        "ja": "調査結果には大きなばらつきがありました。"
       },
       {
-        "en": "Significant variation can affect the final result.",
-        "ja": "重要な・大きなばらつきは最終結果に影響することがあります。"
+        "en": "The data show significant variation between regions.",
+        "ja": "そのデータは地域ごとに大きな差があることを示しています。"
       }
     ]
   },
@@ -7109,19 +7109,19 @@ window.QUESTIONS = [
       "strong problem",
       "big problem"
     ],
-    "explanationJa": "problem は serious と組み合わせると「深刻な問題」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious problem をまとまりで覚えます。",
+    "explanationJa": "serious problem は「深刻な問題」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious problem.",
-        "ja": "その報告書では深刻な問題について触れていました。"
+        "en": "Air pollution is a serious problem in many cities.",
+        "ja": "大気汚染は多くの都市で深刻な問題です。"
       },
       {
-        "en": "Serious problem can affect the final result.",
-        "ja": "深刻な問題は最終結果に影響することがあります。"
+        "en": "We need to solve this serious problem quickly.",
+        "ja": "この深刻な問題を早急に解決する必要があります。"
       }
     ]
   },
@@ -7135,97 +7135,97 @@ window.QUESTIONS = [
       "strong issue",
       "big issue"
     ],
-    "explanationJa": "issue は serious と組み合わせると「深刻な問題」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious issue をまとまりで覚えます。",
+    "explanationJa": "serious issue は「深刻な問題」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious issue.",
-        "ja": "その報告書では深刻な問題について触れていました。"
+        "en": "Data security is a serious issue for the company.",
+        "ja": "データの安全性はその会社にとって深刻な問題です。"
       },
       {
-        "en": "Serious issue can affect the final result.",
-        "ja": "深刻な問題は最終結果に影響することがあります。"
+        "en": "The report raised a serious issue about privacy.",
+        "ja": "その報告書はプライバシーに関する深刻な問題を提起しました。"
       }
     ]
   },
   {
     "id": "adj-serious-injury",
     "category": "Academic",
-    "jaPrompt": "深刻なけが",
+    "jaPrompt": "重傷",
     "answer": "serious injury",
     "distractors": [
       "heavy injury",
       "strong injury",
       "big injury"
     ],
-    "explanationJa": "injury は serious と組み合わせると「深刻なけが」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious injury をまとまりで覚えます。",
+    "explanationJa": "serious injury は「重傷」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious injury.",
-        "ja": "その報告書では深刻なけがについて触れていました。"
+        "en": "The driver suffered a serious injury in the accident.",
+        "ja": "運転手は事故で重傷を負いました。"
       },
       {
-        "en": "Serious injury can affect the final result.",
-        "ja": "深刻なけがは最終結果に影響することがあります。"
+        "en": "Wearing a helmet can prevent serious injury.",
+        "ja": "ヘルメットを着用すると重傷を防げることがあります。"
       }
     ]
   },
   {
     "id": "adj-serious-risk",
     "category": "Academic",
-    "jaPrompt": "深刻なリスク",
+    "jaPrompt": "重大なリスク",
     "answer": "serious risk",
     "distractors": [
       "heavy risk",
       "strong risk",
       "big risk"
     ],
-    "explanationJa": "risk は serious と組み合わせると「深刻なリスク」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious risk をまとまりで覚えます。",
+    "explanationJa": "serious risk は「重大なリスク」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious risk.",
-        "ja": "その報告書では深刻なリスクについて触れていました。"
+        "en": "The project carries a serious risk if we rush it.",
+        "ja": "急いで進めると、そのプロジェクトには重大なリスクがあります。"
       },
       {
-        "en": "Serious risk can affect the final result.",
-        "ja": "深刻なリスクは最終結果に影響することがあります。"
+        "en": "Ignoring the warning could create a serious risk.",
+        "ja": "警告を無視すると重大なリスクが生じる可能性があります。"
       }
     ]
   },
   {
     "id": "adj-serious-illness",
     "category": "Academic",
-    "jaPrompt": "深刻な病気",
+    "jaPrompt": "重い病気",
     "answer": "serious illness",
     "distractors": [
       "heavy illness",
       "strong illness",
       "big illness"
     ],
-    "explanationJa": "illness は serious と組み合わせると「深刻な病気」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious illness をまとまりで覚えます。",
+    "explanationJa": "serious illness は「重い病気」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned serious illness.",
-        "ja": "その報告書では深刻な病気について触れていました。"
+        "en": "She recovered from a serious illness.",
+        "ja": "彼女は重い病気から回復しました。"
       },
       {
-        "en": "Serious illness can affect the final result.",
-        "ja": "深刻な病気は最終結果に影響することがあります。"
+        "en": "Early treatment can prevent serious illness.",
+        "ja": "早期治療は重い病気を防ぐことがあります。"
       }
     ]
   },
@@ -7239,175 +7239,175 @@ window.QUESTIONS = [
       "strong concern",
       "big concern"
     ],
-    "explanationJa": "concern は serious と組み合わせると「深刻な懸念」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious concern をまとまりで覚えます。",
+    "explanationJa": "serious concern は「深刻な懸念」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious concern.",
-        "ja": "その報告書では深刻な懸念について触れていました。"
+        "en": "Safety is a serious concern for parents.",
+        "ja": "安全性は保護者にとって深刻な懸念です。"
       },
       {
-        "en": "Serious concern can affect the final result.",
-        "ja": "深刻な懸念は最終結果に影響することがあります。"
+        "en": "The delay caused serious concern among customers.",
+        "ja": "その遅れは顧客の間に深刻な不安を生みました。"
       }
     ]
   },
   {
     "id": "adj-serious-threat",
     "category": "Academic",
-    "jaPrompt": "深刻な脅威",
+    "jaPrompt": "重大な脅威",
     "answer": "serious threat",
     "distractors": [
       "heavy threat",
       "strong threat",
       "big threat"
     ],
-    "explanationJa": "threat は serious と組み合わせると「深刻な脅威」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious threat をまとまりで覚えます。",
+    "explanationJa": "serious threat は「重大な脅威」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious threat.",
-        "ja": "その報告書では深刻な脅威について触れていました。"
+        "en": "Cyber attacks are a serious threat to businesses.",
+        "ja": "サイバー攻撃は企業にとって重大な脅威です。"
       },
       {
-        "en": "Serious threat can affect the final result.",
-        "ja": "深刻な脅威は最終結果に影響することがあります。"
+        "en": "Climate change is a serious threat to coastal areas.",
+        "ja": "気候変動は沿岸地域にとって重大な脅威です。"
       }
     ]
   },
   {
     "id": "adj-serious-damage",
     "category": "Academic",
-    "jaPrompt": "深刻な損害",
+    "jaPrompt": "深刻な被害",
     "answer": "serious damage",
     "distractors": [
       "heavy damage",
       "strong damage",
       "big damage"
     ],
-    "explanationJa": "damage は serious と組み合わせると「深刻な損害」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious damage をまとまりで覚えます。",
+    "explanationJa": "serious damage は「深刻な被害」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned serious damage.",
-        "ja": "その報告書では深刻な損害について触れていました。"
+        "en": "The flood caused serious damage to the houses.",
+        "ja": "洪水は住宅に深刻な被害をもたらしました。"
       },
       {
-        "en": "Serious damage can affect the final result.",
-        "ja": "深刻な損害は最終結果に影響することがあります。"
+        "en": "A virus can cause serious damage to the system.",
+        "ja": "ウイルスはシステムに深刻な被害を与えることがあります。"
       }
     ]
   },
   {
     "id": "adj-serious-accident",
     "category": "Academic",
-    "jaPrompt": "深刻な事故",
+    "jaPrompt": "重大な事故",
     "answer": "serious accident",
     "distractors": [
       "heavy accident",
       "strong accident",
       "big accident"
     ],
-    "explanationJa": "accident は serious と組み合わせると「深刻な事故」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious accident をまとまりで覚えます。",
+    "explanationJa": "serious accident は「重大な事故」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious accident.",
-        "ja": "その報告書では深刻な事故について触れていました。"
+        "en": "A serious accident blocked the road.",
+        "ja": "重大な事故で道路が塞がれました。"
       },
       {
-        "en": "Serious accident can affect the final result.",
-        "ja": "深刻な事故は最終結果に影響することがあります。"
+        "en": "The factory changed its rules after a serious accident.",
+        "ja": "その工場は重大な事故の後で規則を変更しました。"
       }
     ]
   },
   {
     "id": "adj-serious-crime",
     "category": "Academic",
-    "jaPrompt": "深刻な犯罪",
+    "jaPrompt": "重大な犯罪",
     "answer": "serious crime",
     "distractors": [
       "heavy crime",
       "strong crime",
       "big crime"
     ],
-    "explanationJa": "crime は serious と組み合わせると「深刻な犯罪」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious crime をまとまりで覚えます。",
+    "explanationJa": "serious crime は「重大な犯罪」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious crime.",
-        "ja": "その報告書では深刻な犯罪について触れていました。"
+        "en": "Fraud is a serious crime.",
+        "ja": "詐欺は重大な犯罪です。"
       },
       {
-        "en": "Serious crime can affect the final result.",
-        "ja": "深刻な犯罪は最終結果に影響することがあります。"
+        "en": "The police are investigating a serious crime.",
+        "ja": "警察は重大な犯罪を捜査しています。"
       }
     ]
   },
   {
     "id": "adj-serious-mistake",
     "category": "Academic",
-    "jaPrompt": "深刻な間違い",
+    "jaPrompt": "重大なミス",
     "answer": "serious mistake",
     "distractors": [
       "heavy mistake",
       "strong mistake",
       "big mistake"
     ],
-    "explanationJa": "mistake は serious と組み合わせると「深刻な間違い」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious mistake をまとまりで覚えます。",
+    "explanationJa": "serious mistake は「重大なミス」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious mistake.",
-        "ja": "その報告書では深刻な間違いについて触れていました。"
+        "en": "Deleting the file was a serious mistake.",
+        "ja": "そのファイルを削除したのは重大なミスでした。"
       },
       {
-        "en": "Serious mistake can affect the final result.",
-        "ja": "深刻な間違いは最終結果に影響することがあります。"
+        "en": "A serious mistake in the report changed the result.",
+        "ja": "報告書の重大なミスが結果を変えてしまいました。"
       }
     ]
   },
   {
     "id": "adj-serious-consequence",
     "category": "Academic",
-    "jaPrompt": "深刻な結果",
+    "jaPrompt": "重大な結果",
     "answer": "serious consequence",
     "distractors": [
       "heavy consequence",
       "strong consequence",
       "big consequence"
     ],
-    "explanationJa": "consequence は serious と組み合わせると「深刻な結果」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious consequence をまとまりで覚えます。",
+    "explanationJa": "serious consequence は「重大な結果」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious consequence.",
-        "ja": "その報告書では深刻な結果について触れていました。"
+        "en": "Ignoring the rules can have serious consequences.",
+        "ja": "規則を無視すると重大な結果を招くことがあります。"
       },
       {
-        "en": "Serious consequence can affect the final result.",
-        "ja": "深刻な結果は最終結果に影響することがあります。"
+        "en": "The decision had serious consequences for the team.",
+        "ja": "その決定はチームに重大な影響を及ぼしました。"
       }
     ]
   },
@@ -7421,19 +7421,19 @@ window.QUESTIONS = [
       "strong challenge",
       "big challenge"
     ],
-    "explanationJa": "challenge は serious と組み合わせると「深刻な課題」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious challenge をまとまりで覚えます。",
+    "explanationJa": "serious challenge は「深刻な課題」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious challenge.",
-        "ja": "その報告書では深刻な課題について触れていました。"
+        "en": "A lack of staff is a serious challenge for the hospital.",
+        "ja": "人手不足はその病院にとって深刻な課題です。"
       },
       {
-        "en": "Serious challenge can affect the final result.",
-        "ja": "深刻な課題は最終結果に影響することがあります。"
+        "en": "Learning pronunciation can be a serious challenge for beginners.",
+        "ja": "発音の学習は初心者にとって大きな課題になることがあります。"
       }
     ]
   },
@@ -7447,19 +7447,19 @@ window.QUESTIONS = [
       "strong shortage",
       "big shortage"
     ],
-    "explanationJa": "shortage は serious と組み合わせると「深刻な不足」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious shortage をまとまりで覚えます。",
+    "explanationJa": "serious shortage は「深刻な不足」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious shortage.",
-        "ja": "その報告書では深刻な不足について触れていました。"
+        "en": "The city faces a serious shortage of nurses.",
+        "ja": "その市では看護師が深刻に不足しています。"
       },
       {
-        "en": "Serious shortage can affect the final result.",
-        "ja": "深刻な不足は最終結果に影響することがあります。"
+        "en": "There is a serious shortage of affordable housing.",
+        "ja": "手頃な価格の住宅が深刻に不足しています。"
       }
     ]
   },
@@ -7473,19 +7473,19 @@ window.QUESTIONS = [
       "strong conflict",
       "big conflict"
     ],
-    "explanationJa": "conflict は serious と組み合わせると「深刻な対立」を表しやすいです。日本語の「強い・大きい」に引っ張られず、serious conflict をまとまりで覚えます。",
+    "explanationJa": "serious conflict は「深刻な対立」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a serious conflict.",
-        "ja": "その報告書では深刻な対立について触れていました。"
+        "en": "The discussion led to a serious conflict.",
+        "ja": "その話し合いは深刻な対立につながりました。"
       },
       {
-        "en": "Serious conflict can affect the final result.",
-        "ja": "深刻な対立は最終結果に影響することがあります。"
+        "en": "The manager tried to resolve a serious conflict in the team.",
+        "ja": "マネージャーはチーム内の深刻な対立を解決しようとしました。"
       }
     ]
   },
@@ -7499,19 +7499,19 @@ window.QUESTIONS = [
       "usual mistake",
       "ordinary mistake"
     ],
-    "explanationJa": "mistake は common と組み合わせると「よくある間違い」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common mistake をまとまりで覚えます。",
+    "explanationJa": "common mistake は「よくある間違い」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common mistake.",
-        "ja": "その報告書ではよくある間違いについて触れていました。"
+        "en": "Using the wrong preposition is a common mistake.",
+        "ja": "前置詞を間違えるのはよくあるミスです。"
       },
       {
-        "en": "Common mistake can affect the final result.",
-        "ja": "よくある間違いは最終結果に影響することがあります。"
+        "en": "This is a common mistake among beginners.",
+        "ja": "これは初心者によくある間違いです。"
       }
     ]
   },
@@ -7525,19 +7525,19 @@ window.QUESTIONS = [
       "usual problem",
       "ordinary problem"
     ],
-    "explanationJa": "problem は common と組み合わせると「よくある問題」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common problem をまとまりで覚えます。",
+    "explanationJa": "common problem は「よくある問題」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common problem.",
-        "ja": "その報告書ではよくある問題について触れていました。"
+        "en": "Slow internet is a common problem in this area.",
+        "ja": "この地域ではインターネットが遅いことがよくある問題です。"
       },
       {
-        "en": "Common problem can affect the final result.",
-        "ja": "よくある問題は最終結果に影響することがあります。"
+        "en": "The guide explains how to fix common problems.",
+        "ja": "そのガイドではよくある問題の直し方を説明しています。"
       }
     ]
   },
@@ -7551,45 +7551,45 @@ window.QUESTIONS = [
       "usual reason",
       "ordinary reason"
     ],
-    "explanationJa": "reason は common と組み合わせると「よくある理由」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common reason をまとまりで覚えます。",
+    "explanationJa": "common reason は「よくある理由」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common reason.",
-        "ja": "その報告書ではよくある理由について触れていました。"
+        "en": "A common reason for delay is missing information.",
+        "ja": "遅れのよくある理由は情報不足です。"
       },
       {
-        "en": "Common reason can affect the final result.",
-        "ja": "よくある理由は最終結果に影響することがあります。"
+        "en": "Stress is a common reason for poor sleep.",
+        "ja": "ストレスは睡眠の質が下がるよくある原因です。"
       }
     ]
   },
   {
     "id": "adj-common-practice",
     "category": "Daily Life",
-    "jaPrompt": "よくある慣行",
+    "jaPrompt": "一般的な慣行",
     "answer": "common practice",
     "distractors": [
       "normal practice",
       "usual practice",
       "ordinary practice"
     ],
-    "explanationJa": "practice は common と組み合わせると「よくある慣行」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common practice をまとまりで覚えます。",
+    "explanationJa": "common practice は「一般的な慣行」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common practice.",
-        "ja": "その報告書ではよくある慣行について触れていました。"
+        "en": "It is common practice to back up important files.",
+        "ja": "重要なファイルをバックアップするのは一般的な習慣です。"
       },
       {
-        "en": "Common practice can affect the final result.",
-        "ja": "よくある慣行は最終結果に影響することがあります。"
+        "en": "In many companies, weekly reports are common practice.",
+        "ja": "多くの会社では週報が一般的に行われています。"
       }
     ]
   },
@@ -7603,19 +7603,19 @@ window.QUESTIONS = [
       "usual question",
       "ordinary question"
     ],
-    "explanationJa": "question は common と組み合わせると「よくある質問」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common question をまとまりで覚えます。",
+    "explanationJa": "common question は「よくある質問」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common question.",
-        "ja": "その報告書ではよくある質問について触れていました。"
+        "en": "This is a common question from new users.",
+        "ja": "これは新規ユーザーからよくある質問です。"
       },
       {
-        "en": "Common question can affect the final result.",
-        "ja": "よくある質問は最終結果に影響することがあります。"
+        "en": "The website answers common questions about the service.",
+        "ja": "そのウェブサイトではサービスに関するよくある質問に答えています。"
       }
     ]
   },
@@ -7629,45 +7629,45 @@ window.QUESTIONS = [
       "usual symptom",
       "ordinary symptom"
     ],
-    "explanationJa": "symptom は common と組み合わせると「よくある症状」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common symptom をまとまりで覚えます。",
+    "explanationJa": "common symptom は「よくある症状」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common symptom.",
-        "ja": "その報告書ではよくある症状について触れていました。"
+        "en": "A headache is a common symptom of stress.",
+        "ja": "頭痛はストレスによく見られる症状です。"
       },
       {
-        "en": "Common symptom can affect the final result.",
-        "ja": "よくある症状は最終結果に影響することがあります。"
+        "en": "Fever is a common symptom of this illness.",
+        "ja": "発熱はこの病気によく見られる症状です。"
       }
     ]
   },
   {
     "id": "adj-common-feature",
     "category": "Daily Life",
-    "jaPrompt": "よくある特徴",
+    "jaPrompt": "一般的な機能",
     "answer": "common feature",
     "distractors": [
       "normal feature",
       "usual feature",
       "ordinary feature"
     ],
-    "explanationJa": "feature は common と組み合わせると「よくある特徴」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common feature をまとまりで覚えます。",
+    "explanationJa": "common feature は「一般的な機能」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common feature.",
-        "ja": "その報告書ではよくある特徴について触れていました。"
+        "en": "Search is a common feature in modern apps.",
+        "ja": "検索は現代のアプリで一般的な機能です。"
       },
       {
-        "en": "Common feature can affect the final result.",
-        "ja": "よくある特徴は最終結果に影響することがあります。"
+        "en": "Automatic saving is now a common feature.",
+        "ja": "自動保存は今では一般的な機能です。"
       }
     ]
   },
@@ -7681,71 +7681,71 @@ window.QUESTIONS = [
       "usual cause",
       "ordinary cause"
     ],
-    "explanationJa": "cause は common と組み合わせると「よくある原因」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common cause をまとまりで覚えます。",
+    "explanationJa": "common cause は「よくある原因」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common cause.",
-        "ja": "その報告書ではよくある原因について触れていました。"
+        "en": "A common cause of errors is incorrect input.",
+        "ja": "エラーのよくある原因は入力ミスです。"
       },
       {
-        "en": "Common cause can affect the final result.",
-        "ja": "よくある原因は最終結果に影響することがあります。"
+        "en": "Lack of sleep is a common cause of poor concentration.",
+        "ja": "睡眠不足は集中力低下のよくある原因です。"
       }
     ]
   },
   {
     "id": "adj-common-approach",
     "category": "Daily Life",
-    "jaPrompt": "よくある方法",
+    "jaPrompt": "一般的な方法",
     "answer": "common approach",
     "distractors": [
       "normal approach",
       "usual approach",
       "ordinary approach"
     ],
-    "explanationJa": "approach は common と組み合わせると「よくある方法」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common approach をまとまりで覚えます。",
+    "explanationJa": "common approach は「一般的な方法」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common approach.",
-        "ja": "その報告書ではよくある方法について触れていました。"
+        "en": "A common approach is to start with a small test.",
+        "ja": "一般的な方法は小さなテストから始めることです。"
       },
       {
-        "en": "Common approach can affect the final result.",
-        "ja": "よくある方法は最終結果に影響することがあります。"
+        "en": "This is a common approach in language learning.",
+        "ja": "これは語学学習でよく使われる方法です。"
       }
     ]
   },
   {
     "id": "adj-common-belief",
     "category": "Daily Life",
-    "jaPrompt": "よくある考え",
+    "jaPrompt": "一般的な考え",
     "answer": "common belief",
     "distractors": [
       "normal belief",
       "usual belief",
       "ordinary belief"
     ],
-    "explanationJa": "belief は common と組み合わせると「よくある考え」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common belief をまとまりで覚えます。",
+    "explanationJa": "common belief は「一般的な考え」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common belief.",
-        "ja": "その報告書ではよくある考えについて触れていました。"
+        "en": "It is a common belief that practice improves fluency.",
+        "ja": "練習すれば流暢さが上がるというのは一般的な考えです。"
       },
       {
-        "en": "Common belief can affect the final result.",
-        "ja": "よくある考えは最終結果に影響することがあります。"
+        "en": "That common belief is not always correct.",
+        "ja": "その一般的な考えが常に正しいとは限りません。"
       }
     ]
   },
@@ -7759,19 +7759,19 @@ window.QUESTIONS = [
       "usual experience",
       "ordinary experience"
     ],
-    "explanationJa": "experience は common と組み合わせると「よくある経験」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common experience をまとまりで覚えます。",
+    "explanationJa": "common experience は「よくある経験」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned common experience.",
-        "ja": "その報告書ではよくある経験について触れていました。"
+        "en": "Feeling nervous before a test is a common experience.",
+        "ja": "試験前に緊張するのはよくある経験です。"
       },
       {
-        "en": "Common experience can affect the final result.",
-        "ja": "よくある経験は最終結果に影響することがあります。"
+        "en": "Making mistakes is a common experience for language learners.",
+        "ja": "間違えることは語学学習者によくある経験です。"
       }
     ]
   },
@@ -7785,19 +7785,19 @@ window.QUESTIONS = [
       "usual pattern",
       "ordinary pattern"
     ],
-    "explanationJa": "pattern は common と組み合わせると「よくあるパターン」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common pattern をまとまりで覚えます。",
+    "explanationJa": "common pattern は「よくあるパターン」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common pattern.",
-        "ja": "その報告書ではよくあるパターンについて触れていました。"
+        "en": "The data show a common pattern among new users.",
+        "ja": "そのデータには新規ユーザーによく見られるパターンがあります。"
       },
       {
-        "en": "Common pattern can affect the final result.",
-        "ja": "よくあるパターンは最終結果に影響することがあります。"
+        "en": "This sentence follows a common pattern in English.",
+        "ja": "この文は英語でよく使われる型に従っています。"
       }
     ]
   },
@@ -7811,45 +7811,45 @@ window.QUESTIONS = [
       "usual issue",
       "ordinary issue"
     ],
-    "explanationJa": "issue は common と組み合わせると「よくある問題」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common issue をまとまりで覚えます。",
+    "explanationJa": "common issue は「よくある問題」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common issue.",
-        "ja": "その報告書ではよくある問題について触れていました。"
+        "en": "Login trouble is a common issue for new users.",
+        "ja": "ログインのトラブルは新規ユーザーによくある問題です。"
       },
       {
-        "en": "Common issue can affect the final result.",
-        "ja": "よくある問題は最終結果に影響することがあります。"
+        "en": "The team fixed several common issues in the update.",
+        "ja": "チームは更新でいくつかのよくある問題を修正しました。"
       }
     ]
   },
   {
     "id": "adj-common-method",
     "category": "Daily Life",
-    "jaPrompt": "よくある方法",
+    "jaPrompt": "一般的な方法",
     "answer": "common method",
     "distractors": [
       "normal method",
       "usual method",
       "ordinary method"
     ],
-    "explanationJa": "method は common と組み合わせると「よくある方法」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common method をまとまりで覚えます。",
+    "explanationJa": "common method は「一般的な方法」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common method.",
-        "ja": "その報告書ではよくある方法について触れていました。"
+        "en": "Repeating aloud is a common method for memorizing phrases.",
+        "ja": "声に出して繰り返すことはフレーズを覚える一般的な方法です。"
       },
       {
-        "en": "Common method can affect the final result.",
-        "ja": "よくある方法は最終結果に影響することがあります。"
+        "en": "This is a common method for checking data quality.",
+        "ja": "これはデータ品質を確認する一般的な方法です。"
       }
     ]
   },
@@ -7863,721 +7863,721 @@ window.QUESTIONS = [
       "usual error",
       "ordinary error"
     ],
-    "explanationJa": "error は common と組み合わせると「よくあるエラー」を表しやすいです。日本語の「強い・大きい」に引っ張られず、common error をまとまりで覚えます。",
+    "explanationJa": "common error は「よくあるエラー」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a common error.",
-        "ja": "その報告書ではよくあるエラーについて触れていました。"
+        "en": "A common error is forgetting to save the file.",
+        "ja": "よくあるエラーはファイルの保存を忘れることです。"
       },
       {
-        "en": "Common error can affect the final result.",
-        "ja": "よくあるエラーは最終結果に影響することがあります。"
+        "en": "The system message explains common errors.",
+        "ja": "そのシステムメッセージはよくあるエラーを説明しています。"
       }
     ]
   },
   {
     "id": "adj-annual-report",
     "category": "Business",
-    "jaPrompt": "年次の報告書",
+    "jaPrompt": "年次報告書",
     "answer": "annual report",
     "distractors": [
       "yearly report",
       "every-year report",
       "year report"
     ],
-    "explanationJa": "report は annual と組み合わせると「年次の報告書」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual report をまとまりで覚えます。",
+    "explanationJa": "annual report は「年次報告書」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual report.",
-        "ja": "その報告書では年次の報告書について触れていました。"
+        "en": "The company published its annual report in April.",
+        "ja": "その会社は4月に年次報告書を公開しました。"
       },
       {
-        "en": "Annual report can affect the final result.",
-        "ja": "年次の報告書は最終結果に影響することがあります。"
+        "en": "The annual report includes sales and profit figures.",
+        "ja": "年次報告書には売上と利益の数字が含まれています。"
       }
     ]
   },
   {
     "id": "adj-annual-meeting",
     "category": "Business",
-    "jaPrompt": "年次の会議",
+    "jaPrompt": "年次総会",
     "answer": "annual meeting",
     "distractors": [
       "yearly meeting",
       "every-year meeting",
       "year meeting"
     ],
-    "explanationJa": "meeting は annual と組み合わせると「年次の会議」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual meeting をまとまりで覚えます。",
+    "explanationJa": "annual meeting は「年次総会」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual meeting.",
-        "ja": "その報告書では年次の会議について触れていました。"
+        "en": "Shareholders attended the annual meeting.",
+        "ja": "株主たちは年次総会に出席しました。"
       },
       {
-        "en": "Annual meeting can affect the final result.",
-        "ja": "年次の会議は最終結果に影響することがあります。"
+        "en": "The annual meeting will be held online this year.",
+        "ja": "今年の年次総会はオンラインで開催されます。"
       }
     ]
   },
   {
     "id": "adj-annual-budget",
     "category": "Business",
-    "jaPrompt": "年次の予算",
+    "jaPrompt": "年間予算",
     "answer": "annual budget",
     "distractors": [
       "yearly budget",
       "every-year budget",
       "year budget"
     ],
-    "explanationJa": "budget は annual と組み合わせると「年次の予算」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual budget をまとまりで覚えます。",
+    "explanationJa": "annual budget は「年間予算」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual budget.",
-        "ja": "その報告書では年次の予算について触れていました。"
+        "en": "The department prepared its annual budget.",
+        "ja": "その部署は年間予算を作成しました。"
       },
       {
-        "en": "Annual budget can affect the final result.",
-        "ja": "年次の予算は最終結果に影響することがあります。"
+        "en": "We need to reduce expenses in the annual budget.",
+        "ja": "年間予算の中で支出を減らす必要があります。"
       }
     ]
   },
   {
     "id": "adj-annual-review",
     "category": "Business",
-    "jaPrompt": "年次のレビュー",
+    "jaPrompt": "年次評価",
     "answer": "annual review",
     "distractors": [
       "yearly review",
       "every-year review",
       "year review"
     ],
-    "explanationJa": "review は annual と組み合わせると「年次のレビュー」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual review をまとまりで覚えます。",
+    "explanationJa": "annual review は「年次評価」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual review.",
-        "ja": "その報告書では年次のレビューについて触れていました。"
+        "en": "Employees receive an annual review from their manager.",
+        "ja": "従業員は上司から年次評価を受けます。"
       },
       {
-        "en": "Annual review can affect the final result.",
-        "ja": "年次のレビューは最終結果に影響することがあります。"
+        "en": "The annual review helped her set new goals.",
+        "ja": "年次評価は彼女が新しい目標を立てる助けになりました。"
       }
     ]
   },
   {
     "id": "adj-annual-income",
     "category": "Business",
-    "jaPrompt": "年次の収入",
+    "jaPrompt": "年収",
     "answer": "annual income",
     "distractors": [
       "yearly income",
       "every-year income",
       "year income"
     ],
-    "explanationJa": "income は annual と組み合わせると「年次の収入」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual income をまとまりで覚えます。",
+    "explanationJa": "annual income は「年収」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual income.",
-        "ja": "その報告書では年次の収入について触れていました。"
+        "en": "The form asks for your annual income.",
+        "ja": "その書類では年収を記入する必要があります。"
       },
       {
-        "en": "Annual income can affect the final result.",
-        "ja": "年次の収入は最終結果に影響することがあります。"
+        "en": "Annual income varies by region and job type.",
+        "ja": "年収は地域や職種によって異なります。"
       }
     ]
   },
   {
     "id": "adj-annual-growth",
     "category": "Business",
-    "jaPrompt": "年次の成長",
+    "jaPrompt": "年間成長率",
     "answer": "annual growth",
     "distractors": [
       "yearly growth",
       "every-year growth",
       "year growth"
     ],
-    "explanationJa": "growth は annual と組み合わせると「年次の成長」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual growth をまとまりで覚えます。",
+    "explanationJa": "annual growth は「年間成長率」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual growth.",
-        "ja": "その報告書では年次の成長について触れていました。"
+        "en": "The company achieved five percent annual growth.",
+        "ja": "その会社は年間5パーセントの成長を達成しました。"
       },
       {
-        "en": "Annual growth can affect the final result.",
-        "ja": "年次の成長は最終結果に影響することがあります。"
+        "en": "Annual growth slowed during the recession.",
+        "ja": "不況の間、年間成長率は鈍化しました。"
       }
     ]
   },
   {
     "id": "adj-annual-survey",
     "category": "Business",
-    "jaPrompt": "年次の調査",
+    "jaPrompt": "年次調査",
     "answer": "annual survey",
     "distractors": [
       "yearly survey",
       "every-year survey",
       "year survey"
     ],
-    "explanationJa": "survey は annual と組み合わせると「年次の調査」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual survey をまとまりで覚えます。",
+    "explanationJa": "annual survey は「年次調査」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual survey.",
-        "ja": "その報告書では年次の調査について触れていました。"
+        "en": "The annual survey asks employees about job satisfaction.",
+        "ja": "年次調査では従業員に仕事の満足度を尋ねます。"
       },
       {
-        "en": "Annual survey can affect the final result.",
-        "ja": "年次の調査は最終結果に影響することがあります。"
+        "en": "The annual survey showed higher customer satisfaction.",
+        "ja": "年次調査では顧客満足度の向上が示されました。"
       }
     ]
   },
   {
     "id": "adj-annual-plan",
     "category": "Business",
-    "jaPrompt": "年次の計画",
+    "jaPrompt": "年間計画",
     "answer": "annual plan",
     "distractors": [
       "yearly plan",
       "every-year plan",
       "year plan"
     ],
-    "explanationJa": "plan は annual と組み合わせると「年次の計画」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual plan をまとまりで覚えます。",
+    "explanationJa": "annual plan は「年間計画」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual plan.",
-        "ja": "その報告書では年次の計画について触れていました。"
+        "en": "The team created an annual plan for training.",
+        "ja": "チームは研修の年間計画を作成しました。"
       },
       {
-        "en": "Annual plan can affect the final result.",
-        "ja": "年次の計画は最終結果に影響することがあります。"
+        "en": "Our annual plan includes three major projects.",
+        "ja": "私たちの年間計画には3つの大きなプロジェクトが含まれています。"
       }
     ]
   },
   {
     "id": "adj-annual-fee",
     "category": "Business",
-    "jaPrompt": "年次の料金",
+    "jaPrompt": "年会費",
     "answer": "annual fee",
     "distractors": [
       "yearly fee",
       "every-year fee",
       "year fee"
     ],
-    "explanationJa": "fee は annual と組み合わせると「年次の料金」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual fee をまとまりで覚えます。",
+    "explanationJa": "annual fee は「年会費」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual fee.",
-        "ja": "その報告書では年次の料金について触れていました。"
+        "en": "The card has an annual fee.",
+        "ja": "そのカードには年会費があります。"
       },
       {
-        "en": "Annual fee can affect the final result.",
-        "ja": "年次の料金は最終結果に影響することがあります。"
+        "en": "Members pay an annual fee to use the service.",
+        "ja": "会員はそのサービスを利用するために年会費を支払います。"
       }
     ]
   },
   {
     "id": "adj-annual-event",
     "category": "Business",
-    "jaPrompt": "年次のイベント",
+    "jaPrompt": "年中行事",
     "answer": "annual event",
     "distractors": [
       "yearly event",
       "every-year event",
       "year event"
     ],
-    "explanationJa": "event は annual と組み合わせると「年次のイベント」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual event をまとまりで覚えます。",
+    "explanationJa": "annual event は「年中行事」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual event.",
-        "ja": "その報告書では年次のイベントについて触れていました。"
+        "en": "The festival is an annual event in the town.",
+        "ja": "その祭りは町の年中行事です。"
       },
       {
-        "en": "Annual event can affect the final result.",
-        "ja": "年次のイベントは最終結果に影響することがあります。"
+        "en": "The company picnic became an annual event.",
+        "ja": "会社のピクニックは毎年恒例の行事になりました。"
       }
     ]
   },
   {
     "id": "adj-annual-conference",
     "category": "Business",
-    "jaPrompt": "年次の会議",
+    "jaPrompt": "年次会議",
     "answer": "annual conference",
     "distractors": [
       "yearly conference",
       "every-year conference",
       "year conference"
     ],
-    "explanationJa": "conference は annual と組み合わせると「年次の会議」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual conference をまとまりで覚えます。",
+    "explanationJa": "annual conference は「年次会議」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual conference.",
-        "ja": "その報告書では年次の会議について触れていました。"
+        "en": "The annual conference attracts researchers from many countries.",
+        "ja": "その年次会議には多くの国から研究者が集まります。"
       },
       {
-        "en": "Annual conference can affect the final result.",
-        "ja": "年次の会議は最終結果に影響することがあります。"
+        "en": "She presented her findings at the annual conference.",
+        "ja": "彼女は年次会議で研究結果を発表しました。"
       }
     ]
   },
   {
     "id": "adj-annual-sales",
     "category": "Business",
-    "jaPrompt": "年次の売上",
+    "jaPrompt": "年間売上",
     "answer": "annual sales",
     "distractors": [
       "yearly sales",
       "every-year sales",
       "year sales"
     ],
-    "explanationJa": "sales は annual と組み合わせると「年次の売上」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual sales をまとまりで覚えます。",
+    "explanationJa": "annual sales は「年間売上」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned annual sales.",
-        "ja": "その報告書では年次の売上について触れていました。"
+        "en": "Annual sales increased by ten percent.",
+        "ja": "年間売上は10パーセント増加しました。"
       },
       {
-        "en": "Annual sales can affect the final result.",
-        "ja": "年次の売上は最終結果に影響することがあります。"
+        "en": "The graph shows annual sales for the past five years.",
+        "ja": "そのグラフは過去5年間の年間売上を示しています。"
       }
     ]
   },
   {
     "id": "adj-annual-summary",
     "category": "Business",
-    "jaPrompt": "年次の要約",
+    "jaPrompt": "年間まとめ",
     "answer": "annual summary",
     "distractors": [
       "yearly summary",
       "every-year summary",
       "year summary"
     ],
-    "explanationJa": "summary は annual と組み合わせると「年次の要約」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual summary をまとまりで覚えます。",
+    "explanationJa": "annual summary は「年間まとめ」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual summary.",
-        "ja": "その報告書では年次の要約について触れていました。"
+        "en": "The annual summary lists the team's main achievements.",
+        "ja": "年間まとめにはチームの主な成果が記載されています。"
       },
       {
-        "en": "Annual summary can affect the final result.",
-        "ja": "年次の要約は最終結果に影響することがあります。"
+        "en": "Please read the annual summary before the meeting.",
+        "ja": "会議の前に年間まとめを読んでください。"
       }
     ]
   },
   {
     "id": "adj-annual-statement",
     "category": "Business",
-    "jaPrompt": "年次の声明",
+    "jaPrompt": "年次報告書・明細書",
     "answer": "annual statement",
     "distractors": [
       "yearly statement",
       "every-year statement",
       "year statement"
     ],
-    "explanationJa": "statement は annual と組み合わせると「年次の声明」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual statement をまとまりで覚えます。",
+    "explanationJa": "annual statement は「年次報告書・明細書」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual statement.",
-        "ja": "その報告書では年次の声明について触れていました。"
+        "en": "The bank sends an annual statement to each customer.",
+        "ja": "銀行は各顧客に年次明細書を送ります。"
       },
       {
-        "en": "Annual statement can affect the final result.",
-        "ja": "年次の声明は最終結果に影響することがあります。"
+        "en": "The annual statement shows all account activity.",
+        "ja": "年次明細書には口座の取引内容がすべて記載されています。"
       }
     ]
   },
   {
     "id": "adj-annual-leave",
     "category": "Business",
-    "jaPrompt": "年次の休暇",
+    "jaPrompt": "年次休暇",
     "answer": "annual leave",
     "distractors": [
       "yearly leave",
       "every-year leave",
       "year leave"
     ],
-    "explanationJa": "leave は annual と組み合わせると「年次の休暇」を表しやすいです。日本語の「強い・大きい」に引っ張られず、annual leave をまとまりで覚えます。",
+    "explanationJa": "annual leave は「年次休暇」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned an annual leave.",
-        "ja": "その報告書では年次の休暇について触れていました。"
+        "en": "Employees can take annual leave after six months.",
+        "ja": "従業員は6か月後に年次休暇を取得できます。"
       },
       {
-        "en": "Annual leave can affect the final result.",
-        "ja": "年次の休暇は最終結果に影響することがあります。"
+        "en": "She used her annual leave to visit her family.",
+        "ja": "彼女は家族に会うために年次休暇を使いました。"
       }
     ]
   },
   {
     "id": "adj-financial-support",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な支援",
+    "jaPrompt": "金銭的支援",
     "answer": "financial support",
     "distractors": [
       "money support",
       "cash support",
       "economic support"
     ],
-    "explanationJa": "support は financial と組み合わせると「財務の・金銭的な支援」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial support をまとまりで覚えます。",
+    "explanationJa": "financial support は「金銭的支援」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned financial support.",
-        "ja": "その報告書では財務の・金銭的な支援について触れていました。"
+        "en": "The students need financial support to continue their studies.",
+        "ja": "学生たちは学業を続けるために金銭的支援を必要としています。"
       },
       {
-        "en": "Financial support can affect the final result.",
-        "ja": "財務の・金銭的な支援は最終結果に影響することがあります。"
+        "en": "The government provided financial support to small businesses.",
+        "ja": "政府は小規模企業に金銭的支援を行いました。"
       }
     ]
   },
   {
     "id": "adj-financial-aid",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な援助",
+    "jaPrompt": "学費援助・金銭的援助",
     "answer": "financial aid",
     "distractors": [
       "money aid",
       "cash aid",
       "economic aid"
     ],
-    "explanationJa": "aid は financial と組み合わせると「財務の・金銭的な援助」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial aid をまとまりで覚えます。",
+    "explanationJa": "financial aid は「学費援助・金銭的援助」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial aid.",
-        "ja": "その報告書では財務の・金銭的な援助について触れていました。"
+        "en": "She received financial aid for college.",
+        "ja": "彼女は大学進学のための学費援助を受けました。"
       },
       {
-        "en": "Financial aid can affect the final result.",
-        "ja": "財務の・金銭的な援助は最終結果に影響することがあります。"
+        "en": "Many students apply for financial aid each year.",
+        "ja": "多くの学生が毎年、学費援助を申請します。"
       }
     ]
   },
   {
     "id": "adj-financial-report",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な報告書",
+    "jaPrompt": "財務報告書",
     "answer": "financial report",
     "distractors": [
       "money report",
       "cash report",
       "economic report"
     ],
-    "explanationJa": "report は financial と組み合わせると「財務の・金銭的な報告書」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial report をまとまりで覚えます。",
+    "explanationJa": "financial report は「財務報告書」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial report.",
-        "ja": "その報告書では財務の・金銭的な報告書について触れていました。"
+        "en": "The financial report showed a rise in profit.",
+        "ja": "財務報告書は利益の増加を示していました。"
       },
       {
-        "en": "Financial report can affect the final result.",
-        "ja": "財務の・金銭的な報告書は最終結果に影響することがあります。"
+        "en": "Please review the financial report before the meeting.",
+        "ja": "会議の前に財務報告書を確認してください。"
       }
     ]
   },
   {
     "id": "adj-financial-risk",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的なリスク",
+    "jaPrompt": "財務リスク",
     "answer": "financial risk",
     "distractors": [
       "money risk",
       "cash risk",
       "economic risk"
     ],
-    "explanationJa": "risk は financial と組み合わせると「財務の・金銭的なリスク」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial risk をまとまりで覚えます。",
+    "explanationJa": "financial risk は「財務リスク」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial risk.",
-        "ja": "その報告書では財務の・金銭的なリスクについて触れていました。"
+        "en": "The project involves financial risk.",
+        "ja": "そのプロジェクトには財務リスクがあります。"
       },
       {
-        "en": "Financial risk can affect the final result.",
-        "ja": "財務の・金銭的なリスクは最終結果に影響することがあります。"
+        "en": "Companies need to manage financial risk carefully.",
+        "ja": "企業は財務リスクを慎重に管理する必要があります。"
       }
     ]
   },
   {
     "id": "adj-financial-loss",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な損失",
+    "jaPrompt": "金銭的損失",
     "answer": "financial loss",
     "distractors": [
       "money loss",
       "cash loss",
       "economic loss"
     ],
-    "explanationJa": "loss は financial と組み合わせると「財務の・金銭的な損失」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial loss をまとまりで覚えます。",
+    "explanationJa": "financial loss は「金銭的損失」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned financial loss.",
-        "ja": "その報告書では財務の・金銭的な損失について触れていました。"
+        "en": "The mistake caused a financial loss.",
+        "ja": "そのミスは金銭的損失をもたらしました。"
       },
       {
-        "en": "Financial loss can affect the final result.",
-        "ja": "財務の・金銭的な損失は最終結果に影響することがあります。"
+        "en": "Insurance can protect businesses from financial loss.",
+        "ja": "保険は企業を金銭的損失から守ることがあります。"
       }
     ]
   },
   {
     "id": "adj-financial-gain",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な利益",
+    "jaPrompt": "金銭的利益",
     "answer": "financial gain",
     "distractors": [
       "money gain",
       "cash gain",
       "economic gain"
     ],
-    "explanationJa": "gain は financial と組み合わせると「財務の・金銭的な利益」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial gain をまとまりで覚えます。",
+    "explanationJa": "financial gain は「金銭的利益」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial gain.",
-        "ja": "その報告書では財務の・金銭的な利益について触れていました。"
+        "en": "The deal brought a financial gain to the company.",
+        "ja": "その取引は会社に金銭的利益をもたらしました。"
       },
       {
-        "en": "Financial gain can affect the final result.",
-        "ja": "財務の・金銭的な利益は最終結果に影響することがあります。"
+        "en": "He was not motivated only by financial gain.",
+        "ja": "彼は金銭的利益だけを目的にしていたわけではありません。"
       }
     ]
   },
   {
     "id": "adj-financial-market",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な市場",
+    "jaPrompt": "金融市場",
     "answer": "financial market",
     "distractors": [
       "money market",
       "cash market",
       "economic market"
     ],
-    "explanationJa": "market は financial と組み合わせると「財務の・金銭的な市場」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial market をまとまりで覚えます。",
+    "explanationJa": "financial market は「金融市場」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial market.",
-        "ja": "その報告書では財務の・金銭的な市場について触れていました。"
+        "en": "The news affected the financial market.",
+        "ja": "そのニュースは金融市場に影響を与えました。"
       },
       {
-        "en": "Financial market can affect the final result.",
-        "ja": "財務の・金銭的な市場は最終結果に影響することがあります。"
+        "en": "Investors watch the financial market closely.",
+        "ja": "投資家は金融市場を注意深く見ています。"
       }
     ]
   },
   {
     "id": "adj-financial-system",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な制度",
+    "jaPrompt": "金融制度",
     "answer": "financial system",
     "distractors": [
       "money system",
       "cash system",
       "economic system"
     ],
-    "explanationJa": "system は financial と組み合わせると「財務の・金銭的な制度」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial system をまとまりで覚えます。",
+    "explanationJa": "financial system は「金融制度」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial system.",
-        "ja": "その報告書では財務の・金銭的な制度について触れていました。"
+        "en": "Trust is important in the financial system.",
+        "ja": "金融制度では信頼が重要です。"
       },
       {
-        "en": "Financial system can affect the final result.",
-        "ja": "財務の・金銭的な制度は最終結果に影響することがあります。"
+        "en": "The crisis changed the country's financial system.",
+        "ja": "その危機は国の金融制度を変えました。"
       }
     ]
   },
   {
     "id": "adj-financial-planning",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な計画",
+    "jaPrompt": "資金計画",
     "answer": "financial planning",
     "distractors": [
       "money planning",
       "cash planning",
       "economic planning"
     ],
-    "explanationJa": "planning は financial と組み合わせると「財務の・金銭的な計画」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial planning をまとまりで覚えます。",
+    "explanationJa": "financial planning は「資金計画」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial planning.",
-        "ja": "その報告書では財務の・金銭的な計画について触れていました。"
+        "en": "Financial planning is important before starting a business.",
+        "ja": "事業を始める前には資金計画が重要です。"
       },
       {
-        "en": "Financial planning can affect the final result.",
-        "ja": "財務の・金銭的な計画は最終結果に影響することがあります。"
+        "en": "She asked an expert for financial planning advice.",
+        "ja": "彼女は資金計画について専門家に助言を求めました。"
       }
     ]
   },
   {
     "id": "adj-financial-pressure",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な圧力",
+    "jaPrompt": "金銭的な圧迫",
     "answer": "financial pressure",
     "distractors": [
       "money pressure",
       "cash pressure",
       "economic pressure"
     ],
-    "explanationJa": "pressure は financial と組み合わせると「財務の・金銭的な圧力」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial pressure をまとまりで覚えます。",
+    "explanationJa": "financial pressure は「金銭的な圧迫」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial pressure.",
-        "ja": "その報告書では財務の・金銭的な圧力について触れていました。"
+        "en": "Rising rent put financial pressure on the family.",
+        "ja": "家賃の上昇がその家族に金銭的な負担をかけました。"
       },
       {
-        "en": "Financial pressure can affect the final result.",
-        "ja": "財務の・金銭的な圧力は最終結果に影響することがあります。"
+        "en": "The company is under financial pressure after losing a major client.",
+        "ja": "主要顧客を失った後、その会社は資金面で圧迫されています。"
       }
     ]
   },
   {
     "id": "adj-financial-resources",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な資源",
+    "jaPrompt": "財源",
     "answer": "financial resources",
     "distractors": [
       "money resources",
       "cash resources",
       "economic resources"
     ],
-    "explanationJa": "resources は financial と組み合わせると「財務の・金銭的な資源」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial resources をまとまりで覚えます。",
+    "explanationJa": "financial resources は「財源」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned financial resources.",
-        "ja": "その報告書では財務の・金銭的な資源について触れていました。"
+        "en": "The project requires enough financial resources.",
+        "ja": "そのプロジェクトには十分な財源が必要です。"
       },
       {
-        "en": "Financial resources can affect the final result.",
-        "ja": "財務の・金銭的な資源は最終結果に影響することがあります。"
+        "en": "Small schools often have limited financial resources.",
+        "ja": "小規模な学校は財源が限られていることが多いです。"
       }
     ]
   },
   {
     "id": "adj-financial-security",
     "category": "Business",
-    "jaPrompt": "財務の・金銭的な安定",
+    "jaPrompt": "経済的安定",
     "answer": "financial security",
     "distractors": [
       "money security",
       "cash security",
       "economic security"
     ],
-    "explanationJa": "security は financial と組み合わせると「財務の・金銭的な安定」を表しやすいです。日本語の「強い・大きい」に引っ張られず、financial security をまとまりで覚えます。",
+    "explanationJa": "financial security は「経済的安定」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner collocation patterns",
       "ACL/COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a financial security.",
-        "ja": "その報告書では財務の・金銭的な安定について触れていました。"
+        "en": "A steady job can provide financial security.",
+        "ja": "安定した仕事は経済的安定をもたらします。"
       },
       {
-        "en": "Financial security can affect the final result.",
-        "ja": "財務の・金銭的な安定は最終結果に影響することがあります。"
+        "en": "Many people save money for financial security.",
+        "ja": "多くの人は経済的安定のために貯金します。"
       }
     ]
   },
@@ -11659,19 +11659,19 @@ window.QUESTIONS = [
       "close of",
       "near from"
     ],
-    "explanationJa": "close to は「に近い」を表す定型チャンクです。前置詞を少し変えるだけで不自然になりやすいので、語順ごと覚えます。",
+    "explanationJa": "close to は「に近い」を表す自然な英語のまとまりです。語の組み合わせをフレーズとして覚えます。",
     "sourceRefs": [
       "Codex-generated from learner chunk patterns",
       "COCA/SKELL reference check"
     ],
     "examples": [
       {
-        "en": "The report mentioned a close to.",
-        "ja": "その報告書ではに近いについて触れていました。"
+        "en": "The hotel is close to the station.",
+        "ja": "そのホテルは駅に近いです。"
       },
       {
-        "en": "Close to can affect the final result.",
-        "ja": "に近いは最終結果に影響することがあります。"
+        "en": "She is close to finishing the report.",
+        "ja": "彼女は報告書をもう少しで仕上げるところです。"
       }
     ]
   },
